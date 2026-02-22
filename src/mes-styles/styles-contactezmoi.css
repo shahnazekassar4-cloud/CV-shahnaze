@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.bouton-contactez-moi {
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #646cff;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #646cff;
+  font-weight: bold;
+  margin: 20px;
+}
+.bouton-contactez-moi:hover {
+  background-color: #f4f4fe;
+}
+
+.photo {
+  border: transparent;
+  border-radius: 100%;
+}

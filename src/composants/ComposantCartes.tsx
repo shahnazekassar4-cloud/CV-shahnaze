@@ -1,0 +1,15 @@
+import type { Carte } from "../listes/listeCartes";
+
+export function ComposantCartes(carte: Carte) {
+  return (
+    <div
+      className={`carte ${carte.couleurOmbre} ${carte.position}`}
+      style={{ borderColor: carte.couleur }}
+    >
+      <div className="carte-titre" style={{ color: carte.couleur }}>
+        {carte.titre}
+      </div>
+      <div className="carte-liste">{carte.description}</div>
+    </div>
+  );
+}

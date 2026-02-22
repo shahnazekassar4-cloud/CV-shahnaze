@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.sous-en-tete-0 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.sous-en-tete-1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.sous-en-tete-2 {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+.entete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

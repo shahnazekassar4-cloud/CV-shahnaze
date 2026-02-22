@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+.carte {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: 270px;
+  width: 220px;
+  transition: box-shadow 0.3s ease;
+  background: white;
+}
+
+.carte-permis {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #e42618;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 130px;
+  color: #e42618;
+}
+
+.carte-titre {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carte-liste {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.carte-competences-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carte-interets-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

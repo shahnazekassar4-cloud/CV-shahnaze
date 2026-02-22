@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+.evenement-titre {
+  font-size: 15px;
+  font-weight: bold;
+}
+.evenement-date {
+  font-size: 12px;
+  width: 200px;
+  text-align: end;
+}
+.evenement-description {
+  font-size: 13px;
+  font-style: italic;
+  text-align: justify;
+}
+.evenement-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 20px;
+  gap: 50px;
+}
+
+.bodures-evenement {
+  transition: all 0.5s;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px;
+}
+.bodures-evenement:hover {
+  box-shadow: 0px 0px 5px gray;
+}
+.logo {
+  height: 60px;
+  width: auto;
+
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.date-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bouton-plus {
+  font-weight: bolder;
+  cursor: pointer;
+  border-color: transparent;
+  width: 20px;
+}
+.bouton-plus:hover {
+  border-color: white;
+}
