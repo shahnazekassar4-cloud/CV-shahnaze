@@ -27,16 +27,13 @@
   font-size: 15px;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.carte-liste {
+.carte-description {
   font-size: 13px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-style: italic;
   text-align: center;
-  padding: 10px;
 }
 
 .carte-competences-position {

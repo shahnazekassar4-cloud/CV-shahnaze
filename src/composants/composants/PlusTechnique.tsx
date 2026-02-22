@@ -1,6 +1,6 @@
 export function PlusTechnique() {
   return (
-    <div className="">
+    <div className="carte-description">
       <div>Bureautique : Microsoft Office</div>
       <div>Gestion de projet : Notion</div>
       <div>Programmation : React, TypeScript, HTML, VBA, Matlab</div>

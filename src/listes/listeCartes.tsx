@@ -3,6 +3,9 @@ import { PlusTechnique } from "../composants/composants/PlusTechnique";
 import { PlusHumain } from "../composants/composants/PlusHumain";
 import { PlusLangues } from "../composants/composants/PlusLangue";
 import { PlusMalo } from "../composants/composants/PlusMalo";
+import { PlusJeu } from "../composants/composants/PlusJeu";
+import { PlusEcriture } from "../composants/composants/PlusEcriture";
+import { PlusSport } from "../composants/composants/PlusSport";
 
 export type Carte = {
   id: number;
@@ -45,9 +48,7 @@ export const listeInterets: Carte[] = [
   {
     id: 1,
     titre: "Jeu de société",
-    description: [
-      "A trois, nous nous lancé le défi de développer un jeu de société engagé sur des enjeux actuels. Notre objectif est de le présenter à un salon de jeu de société en 2026 !",
-    ],
+    description: <PlusJeu />,
     couleur: "#F4A519",
     couleurOmbre:
       " hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
@@ -66,9 +67,7 @@ export const listeInterets: Carte[] = [
   {
     id: 3,
     titre: "Ecriture",
-    description: [
-      "Depuis toujours je m'essai à l'ériture de toute forme : articles engagés, poésie, fictions, chansons. C'est un moyen de m'exprimer que et de partager.",
-    ],
+    description: <PlusEcriture />,
     couleur: "#00A651",
     couleurOmbre:
       " hover:shadow-[7px_5px_0px_-1px_rgba(0,166,81,0.5)] hover:z-1",
@@ -77,13 +76,7 @@ export const listeInterets: Carte[] = [
   {
     id: 4,
     titre: "Sports",
-    description: [
-      "Tennis",
-      "Gymnastique",
-      "Roller",
-      "Course à pied",
-      "Badminton",
-    ],
+    description: <PlusSport />,
     couleur: "#E42618",
     couleurOmbre:
       "rotate-10 hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] hover:z-1",

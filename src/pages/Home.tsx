@@ -10,15 +10,9 @@ import { ComposantCartes } from "../composants/ComposantCartes";
 import motivationsImg from "../img/motivations.png";
 import { Permis } from "../composants/Permis";
 
-import { PlusTechnique } from "../composants/composants/PlusTechnique";
-import { PlusHumain } from "../composants/composants/PlusHumain";
-
 const Home = () => {
   return (
     <div>
-      <PlusTechnique />
-      <PlusHumain />
-
       <EnTete />
       <BoutonContactezMoi />
       <div className="parties">
@@ -39,7 +33,6 @@ const Home = () => {
           );
         })}
       </div>
-
       <div className="parties">
         <h2 className="chapitre">MES COMPETENCES</h2>
         <div className="flex justify-between mt-10">
@@ -64,7 +57,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div className="parties">
         <h2 className="chapitre">MES EXPERIENCES PROFESSIONNELLES</h2>
         {listeExp.map((exp) => {

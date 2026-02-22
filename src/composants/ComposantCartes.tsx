@@ -9,7 +9,7 @@ export function ComposantCartes(carte: Carte) {
       <div className="carte-titre" style={{ color: carte.couleur }}>
         {carte.titre}
       </div>
-      <div className="carte-liste">{carte.description}</div>
+      <div>{carte.description}</div>
     </div>
   );
 }
