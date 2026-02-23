@@ -18,7 +18,7 @@
 	border-color: #e42618;
 	border-radius: 10px;
 	padding: 30px;
-  rotate: -3deg;
+	rotate: -3deg;
 	width: 130px;
 	color: #e42618;
 }
@@ -54,11 +54,7 @@
 
 @media screen and (min-width: 768px) {
 	.carte-interets-position {
-		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
-		margin-top: 50px;
-		margin-bottom: 50px;
 	}
 }
