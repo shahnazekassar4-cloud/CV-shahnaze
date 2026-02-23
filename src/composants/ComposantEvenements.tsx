@@ -1,62 +1,58 @@
 import type { Evenement } from "../listes/listeEvenements";
 import { useState } from "react";
 import type { ReactNode } from "react";
+import PlusIcon from "./icones/PlusIcon";
+import MinusIcon from "./icones/MinusIcon";
 
-type BoutonProps = { couleur: string; onOff: () => void };
+type BoutonProps = {
+	couleur: string;
+	onClick: () => void;
+	children: ReactNode;
+};
 
 type contentProps = { content: ReactNode };
 
-export function ComposantEvenements(event: Evenement) {
-  const [plusIsVisible, setPlusIsVisible] = useState<boolean>(false);
-  return (
-    <div className="evenement-position bodures-evenement">
-      <div className="w-35">
-        <img src={event.img} className="logo" />
-      </div>
-      <div className="w-200 ">
-        <div className="date-position">
-          <div className="evenement-titre" style={{ color: event.couleur }}>
-            {event.titre}
-          </div>
-          <div className="evenement-date" style={{ color: event.couleur }}>
-            {event.date}
-          </div>
-        </div>
-        <div className="evenement-description">{event.description}</div>
-        {plusIsVisible == true && <PlusEvenement content={event.content} />}
-      </div>
-      {plusIsVisible == false && (
-        <BoutonPlus
-          onOff={() => setPlusIsVisible(true)}
-          couleur={event.couleur}
-        />
-      )}
-      {plusIsVisible == true && (
-        <BoutonMoins
-          onOff={() => setPlusIsVisible(false)}
-          couleur={event.couleur}
-        />
-      )}
-    </div>
-  );
+export function ComposantEvenement(event: Evenement) {
+	const [contentIsVisible, setPlusIsVisible] = useState<boolean>(false);
+	return (
+		<div className="evenement-position bodures-evenement">
+			<img src={event.img} className="logo" />
+			<div className="w-200 ">
+				<div className="date-position">
+					<div className="evenement-titre" style={{ color: event.couleur }}>
+						{event.titre}
+					</div>
+					<div className="evenement-date" style={{ color: event.couleur }}>
+						{event.date}
+					</div>
+				</div>
+				<div className="evenement-description">{event.description}</div>
+				{contentIsVisible == true && <PlusEvenement content={event.content} />}
+			</div>
+			{contentIsVisible ? (
+				<Bouton couleur={event.couleur} onClick={() => setPlusIsVisible(false)}>
+					<MinusIcon />
+				</Bouton>
+			) : (
+				<Bouton couleur={event.couleur} onClick={() => setPlusIsVisible(true)}>
+					<PlusIcon/>
+				</Bouton>
+			)}
+		</div>
+	);
 }
 
 export function PlusEvenement(props: contentProps) {
-  return <div className="mt-3">{props.content}</div>;
+	return <div className="mt-3">{props.content}</div>;
 }
-
-export function BoutonPlus({ couleur, onOff }: BoutonProps) {
-  return (
-    <button className="bouton-plus" style={{ color: couleur }} onClick={onOff}>
-      +
-    </button>
-  );
-}
-
-export function BoutonMoins({ couleur, onOff }: BoutonProps) {
-  return (
-    <button className="bouton-plus" style={{ color: couleur }} onClick={onOff}>
-      -
-    </button>
-  );
+export function Bouton({ couleur, onClick, children }: BoutonProps) {
+	return (
+		<button
+			className="bouton-plus"
+			style={{ color: couleur }}
+			onClick={onClick}
+		>
+			{children}
+		</button>
+	);
 }
