@@ -6,7 +6,7 @@ import { listeProjets } from "../listes/listeEvenements";
 import { ComposantEvenement } from "../composants/ComposantEvenements";
 import { listeCompetences } from "../listes/listeCartes";
 import { listeInterets } from "../listes/listeCartes";
-import { ComposantCartes } from "../composants/ComposantCartes";
+import { ComposantCarte } from "../composants/ComposantCartes";
 import motivationsImg from "../img/motivations.png";
 import { Permis } from "../composants/Permis";
 
@@ -38,7 +38,7 @@ const Home = () => {
 					<div className="carte-competences-position relative w-130 h-155">
 						{listeCompetences.map((competence) => {
 							return (
-								<ComposantCartes
+								<ComposantCarte
 									key={competence.id}
 									id={competence.id}
 									titre={competence.titre}
@@ -101,7 +101,7 @@ const Home = () => {
 				<div className="carte-interets-position">
 					{listeInterets.map((interet) => {
 						return (
-							<ComposantCartes
+							<ComposantCarte
 								key={interet.id}
 								id={interet.id}
 								titre={interet.titre}
