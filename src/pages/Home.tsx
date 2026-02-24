@@ -3,10 +3,10 @@ import BoutonContactezMoi from "../composants/ComposantContactezMoi";
 import { listeEcoles } from "../listes/listeEvenements";
 import { listeExp } from "../listes/listeEvenements";
 import { listeProjets } from "../listes/listeEvenements";
-import { ComposantEvenements } from "../composants/ComposantEvenements";
+import { ComposantEvenement } from "../composants/ComposantEvenement";
 import { listeCompetences } from "../listes/listeCartes";
 import { listeInterets } from "../listes/listeCartes";
-import { ComposantCartes } from "../composants/ComposantCartes";
+import { ComposantCarte } from "../composants/ComposantCarte";
 import motivationsImg from "../img/motivations.png";
 import { Permis } from "../composants/Permis";
 
@@ -19,7 +19,7 @@ const Home = () => {
         <h2 className="chapitre">MES FORMATIONS</h2>
         {listeEcoles.map((ecole) => {
           return (
-            <ComposantEvenements
+            <ComposantEvenement
               key={ecole.id}
               id={ecole.id}
               img={ecole.img}
@@ -35,11 +35,11 @@ const Home = () => {
       </div>
       <div className="parties">
         <h2 className="chapitre">MES COMPETENCES</h2>
-        <div className="flex justify-between mt-10">
+        <div className="flex justify-center mt-10 gap-10">
           <div className="carte-competences-position relative w-130 h-155">
             {listeCompetences.map((competence) => {
               return (
-                <ComposantCartes
+                <ComposantCarte
                   key={competence.id}
                   id={competence.id}
                   titre={competence.titre}
@@ -61,7 +61,7 @@ const Home = () => {
         <h2 className="chapitre">MES EXPERIENCES PROFESSIONNELLES</h2>
         {listeExp.map((exp) => {
           return (
-            <ComposantEvenements
+            <ComposantEvenement
               key={exp.id}
               id={exp.id}
               img={exp.img}
@@ -79,7 +79,7 @@ const Home = () => {
         <h2 className="chapitre">GESTION DE PROJET ET EVENEMENTS ANIMES</h2>
         {listeProjets.map((projet) => {
           return (
-            <ComposantEvenements
+            <ComposantEvenement
               key={projet.id}
               id={projet.id}
               img={projet.img}
@@ -100,7 +100,7 @@ const Home = () => {
         <div className="carte-interets-position">
           {listeInterets.map((interet) => {
             return (
-              <ComposantCartes
+              <ComposantCarte
                 key={interet.id}
                 id={interet.id}
                 titre={interet.titre}

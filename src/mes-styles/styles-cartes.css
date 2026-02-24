@@ -18,7 +18,7 @@
   border-color: #e42618;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  rotate: 5deg;
   width: 130px;
   color: #e42618;
 }
@@ -44,9 +44,24 @@
 }
 .carte-interets-position {
   display: flex;
+  /* flex-direction: column; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* @media screen and (min-width: 768px) {
+  .carte-interets-position {
+    flex-direction: row;
+    justify-content: center;
+  }
+} */
+
+.photo-malo {
+  scale: 40%;
+  position: relative;
+  top: -130px;
+  left: -69px;
 }

@@ -21,3 +21,7 @@
   border: transparent;
   border-radius: 100%;
 }
+
+.bouton-info:hover {
+  cursor: pointer;
+}

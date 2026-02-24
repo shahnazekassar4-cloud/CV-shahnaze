@@ -1,31 +1,6 @@
 type popupProps = { onClose: () => void };
 import { listeCoordonnees } from "../listes/listeCoordonnees";
 import photoImg from "../img/photo-1.jpg";
-
-export function ComposantContactezMoi(props: popupProps) {
-  return (
-    <div className="popup-layout">
-      <div className="popup">
-        <button onClick={props.onClose} className="bouton-croix">
-          ×
-        </button>
-        <div className="flex row items-end gap-10">
-          <img src={photoImg} className="w-20 photo mb-5" />
-          <ul>
-            {listeCoordonnees.map((coo) => {
-              return (
-                <li className="liste-position">
-                  <img src={coo.logo} className="icone" /> {coo.info}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 import { useState } from "react";
 
 export default function BoutonContactezMoi() {
@@ -46,6 +21,30 @@ export default function BoutonContactezMoi() {
         </button>
       </div>
       {popupVisible == true && <ComposantContactezMoi onClose={closePopup} />}
+    </div>
+  );
+}
+
+export function ComposantContactezMoi(props: popupProps) {
+  return (
+    <div className="popup-layout" onClick={props.onClose}>
+      <div className="popup">
+        <button onClick={props.onClose} className="bouton-croix">
+          ×
+        </button>
+        <div className="flex row items-end gap-10">
+          <img src={photoImg} className="w-20 photo mb-5" />
+          <ul>
+            {listeCoordonnees.map((coo) => {
+              return (
+                <li className="liste-position">
+                  <img src={coo.logo} className="icone" /> {coo.info}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

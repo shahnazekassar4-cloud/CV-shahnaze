@@ -1,7 +1,7 @@
 export function PlusUqac() {
   return (
-    <div>
-      <p className="evenement-description">
+    <div className="evenement-description">
+      <p>
         Durant mon année au Canada, j’ai eu l’occasion de coorganiser une
         journée de conférence pour “repenser la prise de décision dans la
         transition socio-écologique”. J’ai notamment cocréé un atelier
@@ -14,8 +14,8 @@ export function PlusUqac() {
         animer un panel et travailler en équipe pour gérer des situations
         d’urgence en temps réel.
       </p>
-      <p className="evenement-description">cours multi</p>
-      <p className="evenement-description">projet reemploi</p>
+      <p> cours multi</p>
+      <p> projet reemploi</p>
     </div>
   );
 }

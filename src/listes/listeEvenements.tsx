@@ -7,13 +7,13 @@ import otalentsImg from "../img/otalents.png";
 import lgfImg from "../img/lgf.jpg";
 import recupImg from "../img/recup.jpg";
 import type { ReactNode } from "react";
-import { PlusUqac } from "../composants/composants/PlusUqac";
-import { PlusInsa } from "../composants/composants/PlusInsa";
-import { PlusLgf } from "../composants/composants/PlusLgf";
-import { PlusEmip } from "../composants/composants/PlusEmip";
-import { PlusTlsM } from "../composants/composants/PlusTlsM";
-import { PlusEcc } from "../composants/composants/PlusEcc";
-import { PlusOtalents } from "../composants/composants/PlusOtalents";
+import { PlusUqac } from "../composants/composants/evenement/PlusUqac";
+import { PlusInsa } from "../composants/composants/evenement/PlusInsa";
+import { PlusLgf } from "../composants/composants/evenement/PlusLgf";
+import { PlusEmip } from "../composants/composants/evenement/PlusEmip";
+import { PlusTlsM } from "../composants/composants/evenement/PlusTlsM";
+import { PlusEcc } from "../composants/composants/evenement/PlusEcc";
+import { PlusOtalents } from "../composants/composants/evenement/PlusOtalents";
 
 export type Evenement = {
   id: number;

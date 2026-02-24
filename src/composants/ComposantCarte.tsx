@@ -1,6 +1,6 @@
 import type { Carte } from "../listes/listeCartes";
 
-export function ComposantCartes(carte: Carte) {
+export function ComposantCarte(carte: Carte) {
   return (
     <div
       className={`carte ${carte.couleurOmbre} ${carte.position}`}
