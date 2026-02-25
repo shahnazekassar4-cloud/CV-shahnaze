@@ -9,6 +9,7 @@ import { listeInterets } from "../listes/listeCartes";
 import { ComposantCarte } from "../composants/ComposantCarte";
 import motivationsImg from "../img/motivations.png";
 import { Permis } from "../composants/Permis";
+import Autre from "../composants/composants/evenement/Autre";
 
 const Home = () => {
   return (
@@ -26,7 +27,6 @@ const Home = () => {
               date={ecole.date}
               titre={ecole.titre}
               description={ecole.description}
-              infos={ecole.infos}
               couleur={ecole.couleur}
               content={ecole.content}
             />
@@ -68,7 +68,6 @@ const Home = () => {
               date={exp.date}
               titre={exp.titre}
               description={exp.description}
-              infos={exp.infos}
               couleur={exp.couleur}
               content={exp.content}
             />
@@ -86,7 +85,6 @@ const Home = () => {
               date={projet.date}
               titre={projet.titre}
               description={projet.description}
-              infos={projet.infos}
               couleur={projet.couleur}
               content={projet.content}
             />

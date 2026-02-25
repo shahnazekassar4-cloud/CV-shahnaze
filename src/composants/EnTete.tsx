@@ -24,14 +24,12 @@ export default function EnTete() {
           </div>
         </div>
         <div className="sous-en-tete-2">
-          <p>
-            Je conçois et optimise des
-            <b className="texte"> solutions techniques</b> durables tout en
-            intégrant les enjeux socio-écologiques. Je recherche un poste à
-            impact dans l’énergie, la mobilité ou l’environnement et donner un
-            une dimension
-            <b className="texte"> engagée</b> à mon parcours professionnel.
-          </p>
+          Je conçois et optimise des
+          <b className="texte"> solutions techniques</b> durables tout en
+          intégrant les enjeux socio-écologiques actuels. Je recherche un poste
+          à impact dans l’énergie, la mobilité ou l’environnement pour donner un
+          une dimension
+          <b className="texte"> engagée</b> à mon parcours professionnel.
         </div>
       </div>
     </div>

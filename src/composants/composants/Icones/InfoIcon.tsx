@@ -37,11 +37,18 @@ export default InfoIcon;
 function PopupInfo(props: popupProps) {
   return (
     <div className="popup-layout" onClick={props.onClose}>
-      <div className="popup">
+      <div className="popup-info w-150 text-justify">
         <button onClick={props.onClose} className="bouton-croix">
           ×
         </button>
-        <div>hello</div>
+        <div>
+          A la fois à la recherche de mon premier emplois et en pleine prise de
+          recule sur mes ambitions professionnelles, j'ai voulu resté active et
+          continuer de monter en compétence. C'est pour cela que je me suis
+          formée au développement web au travers de différents projets donc ce
+          CV en ligne. J'espère que cela saura vous convaincre sur mon autotomie
+          et ma créativité.
+        </div>
       </div>
     </div>
   );
