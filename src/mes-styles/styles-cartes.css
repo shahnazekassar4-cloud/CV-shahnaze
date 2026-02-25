@@ -99,3 +99,12 @@
   white-space: nowrap; /* évite les retours à la ligne internes */
   font-size: 12px;
 }
+
+.competences-sport {
+  padding: 4px 8px;
+  background-color: #ffdcdc;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 12px;
+}

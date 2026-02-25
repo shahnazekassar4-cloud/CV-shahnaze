@@ -1,11 +1,11 @@
 import type { ReactNode } from "react";
-import { PlusTechnique } from "../composants/composants/carte/PlusTechnique";
-import { PlusHumain } from "../composants/composants/carte/PlusHumain";
-import { PlusLangues } from "../composants/composants/carte/PlusLangue";
-import { PlusMalo } from "../composants/composants/carte/PlusMalo";
-import { PlusJeu } from "../composants/composants/carte/PlusJeu";
-import { PlusEcriture } from "../composants/composants/carte/PlusEcriture";
-import { PlusSport } from "../composants/composants/carte/PlusSport";
+import { PlusTechnique } from "../composants/carte/PlusTechnique";
+import { PlusHumain } from "../composants/carte/PlusHumain";
+import { PlusLangues } from "../composants/carte/PlusLangue";
+import { PlusMalo } from "../composants/carte/PlusMalo";
+import { PlusJeu } from "../composants/carte/PlusJeu";
+import { PlusEcriture } from "../composants/carte/PlusEcriture";
+import { PlusSport } from "../composants/carte/PlusSport";
 
 export type Carte = {
   id: number;

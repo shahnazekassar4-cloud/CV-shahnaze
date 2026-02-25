@@ -13,6 +13,7 @@
   font-size: 13px;
   font-style: italic;
   text-align: justify;
+  margin-bottom: 5px;
 }
 .evenement-position {
   display: flex;
@@ -55,4 +56,22 @@
 }
 .bouton:hover {
   border-color: white;
+}
+
+.competences-emip {
+  padding: 4px 8px;
+  background-color: #fef7e8;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.competences-tlsM {
+  padding: 4px 8px;
+  background-color: #dcf3f7;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  font-size: 12px;
+  margin-right: 4px;
 }

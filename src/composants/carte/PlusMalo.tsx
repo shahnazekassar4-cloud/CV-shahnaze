@@ -1,4 +1,4 @@
-import maloImg from "../../../img/malo.png";
+import maloImg from "../../img/malo.png";
 
 export function PlusMalo() {
   return (

@@ -1,8 +1,8 @@
 import type { Evenement } from "../listes/listeEvenements";
 import { useState } from "react";
 import type { ReactNode } from "react";
-import MinusIcon from "./composants/Icones/MinusIcon";
-import PlusIcon from "./composants/Icones/PlusIcon";
+import MinusIcon from "./Icones/MinusIcon";
+import PlusIcon from "./Icones/PlusIcon";
 
 type BoutonProps = {
   couleur: string;
@@ -27,6 +27,7 @@ export function ComposantEvenement(event: Evenement) {
         </div>
         <div className="evenement-description">{event.description}</div>
         {contentIsVisible == true && <PlusEvenement content={event.content} />}
+        {event.competences}
       </div>
       {contentIsVisible ? (
         <Bouton

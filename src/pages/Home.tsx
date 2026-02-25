@@ -30,6 +30,7 @@ const Home = () => {
               description={ecole.description}
               couleur={ecole.couleur}
               content={ecole.content}
+              competences={ecole.competences}
             />
           );
         })}
@@ -71,6 +72,7 @@ const Home = () => {
               description={exp.description}
               couleur={exp.couleur}
               content={exp.content}
+              competences={exp.competences}
             />
           );
         })}
@@ -88,6 +90,7 @@ const Home = () => {
               description={projet.description}
               couleur={projet.couleur}
               content={projet.content}
+              competences={projet.competences}
             />
           );
         })}

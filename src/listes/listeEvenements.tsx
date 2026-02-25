@@ -5,16 +5,19 @@ import tlsMImg from "../img/tlsM.jpg";
 import eccImg from "../img/ecoconseil.jpg";
 import otalentsImg from "../img/otalents.png";
 import lgfImg from "../img/lgf.jpg";
-import recupImg from "../img/recup.jpg";
+// import recupImg from "../img/recup.jpg";
 import type { ReactNode } from "react";
-import { PlusUqac } from "../composants/composants/evenement/PlusUqac";
-import { PlusInsa } from "../composants/composants/evenement/PlusInsa";
-import { PlusLgf } from "../composants/composants/evenement/PlusLgf";
-import { PlusEmip } from "../composants/composants/evenement/PlusEmip";
-import { PlusTlsM } from "../composants/composants/evenement/PlusTlsM";
-import { PlusEcc } from "../composants/composants/evenement/PlusEcc";
-import { PlusOtalents } from "../composants/composants/evenement/PlusOtalents";
-import Autre from "../composants/composants/evenement/Autre";
+import { PlusUqac } from "../composants/evenement/PlusUqac";
+import { PlusInsa } from "../composants/evenement/PlusInsa";
+import { PlusLgf } from "../composants/evenement/PlusLgf";
+import { PlusEmip } from "../composants/evenement/PlusEmip";
+import { PlusTlsM } from "../composants/evenement/PlusTlsM";
+import { PlusEcc } from "../composants/evenement/PlusEcc";
+import { PlusOtalents } from "../composants/evenement/PlusOtalents";
+import { CompetencesEmip } from "../composants/Competences/CompetencesEmip";
+import { CompetencesTlsM } from "../composants/Competences/CompetencesTlsM";
+import Autre from "../composants/evenement/Autre";
+
 export type Evenement = {
   id: number;
   img: string;
@@ -23,6 +26,7 @@ export type Evenement = {
   description: ReactNode;
   couleur: string;
   content: ReactNode;
+  competences: ReactNode;
 };
 
 export const listeEcoles: Evenement[] = [
@@ -35,6 +39,7 @@ export const listeEcoles: Evenement[] = [
       "DESS en EcoConseil. Conseil en développement durable et transition socio-écologique à l'échelle des entreprises et des particuliers. Surement l'une des formations les plus riches sur le plan théorique, pratique et humain.",
     couleur: "#6C8A18",
     content: <PlusUqac />,
+    competences: "",
   },
   {
     id: 2,
@@ -45,6 +50,7 @@ export const listeEcoles: Evenement[] = [
       "Génie des procédés appliqués à l’eau, l’énergie et l’environnement. Une formation avant scientifique et technique qui a su intégrer les sciences humaines et des valeurs engagés.",
     couleur: "#E42618",
     content: <PlusInsa />,
+    competences: "",
   },
   {
     id: 1,
@@ -55,6 +61,7 @@ export const listeEcoles: Evenement[] = [
       "Baccalauréat scientifique avec option science de la vie et de la terre du lycée français de la Marsa.",
     couleur: "#094196",
     content: <PlusLgf />,
+    competences: "",
   },
 ];
 
@@ -69,6 +76,7 @@ export const listeExp: Evenement[] = [
       "Prospection, étude de préfaisabilité, développement, montage dossiers réglementaires (dérogations environnementales, déclarations préalables) pour des projets de 300KWc à 1MWc. Développement d’un outil de prévision de production des parcs et flux financiers : identification des parcs sous performants et des causes. Contribution à la stratégie carbone et aux réflexions IA au sein de la coopérative",
     couleur: "#F4A519",
     content: <PlusEmip />,
+    competences: <CompetencesEmip />,
   },
   {
     id: 1,
@@ -79,6 +87,7 @@ export const listeExp: Evenement[] = [
       "Optimisation d’un outil d’aide à la décision, réduisant le temps d’analyse (20 min à 10 secondes) et amélioration de la fiabilité du programme de travaux du réseau d’eau potable.Mise à jour du rapport de stratégie de gestion patrimoniale du réseau d’eau potable à communiquer aux élus.",
     couleur: "#479FB1",
     content: <PlusTlsM />,
+    competences: <CompetencesTlsM />,
   },
   {
     id: 3,
@@ -88,6 +97,7 @@ export const listeExp: Evenement[] = [
     description: "",
     couleur: "#094196",
     content: <Autre />,
+    competences: "",
   },
 ];
 
@@ -99,7 +109,7 @@ export const listeProjets: Evenement[] = [
   //   titre: "Bénévolat : Réccup'Occitanie",
   //   description: "composatage",
   //   couleur: "#003e28",
-  //   content: "<PlusTlsM />",
+  //   content: "<PlusTlsM />", competences:"",
   // },
   {
     id: 2,
@@ -110,6 +120,7 @@ export const listeProjets: Evenement[] = [
       "Organisation d’une journée de conférence, d’un panel et cocréation d’un atelier participatif pour expérimenter différentes méthodes de prise de décision avec des élus, chercheurs et étudiants. Gestion de la trésorerie et des partenariats.",
     couleur: "#00A651",
     content: <PlusEcc />,
+    competences: "",
   },
   {
     id: 1,
@@ -120,5 +131,6 @@ export const listeProjets: Evenement[] = [
       "Recrutement et formation des 60 tuteurs. Accompagnement de 400 collégiens et lycées pour promouvoir les études supérieures, lutter contre l’auto-censure et développer la culture générale. Création d’une vidéo promotionnelle pour la communication du dispositif.",
     couleur: "#EF3125",
     content: <PlusOtalents />,
+    competences: "",
   },
 ];

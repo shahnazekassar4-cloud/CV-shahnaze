@@ -1,5 +1,5 @@
 import photoImg from "../img/photo-1.jpg";
-import InfoIcon from "./composants/Icones/InfoIcon";
+import InfoIcon from "./Icones/InfoIcon";
 export default function EnTete() {
   return (
     <div className="entete mt-10 ">
