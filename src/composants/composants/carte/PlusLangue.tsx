@@ -5,6 +5,7 @@ export function PlusLangues() {
       <div className="competences-langues"> Anglais : TOEIC B2</div>
       <div className="competences-langues"> Arabe : dialecte tunisien</div>
       <div className="competences-langues"> Italien : niveau scolaire</div>
+      <div className="competences-langues"> Coréen : notions</div>
     </div>
   );
 }

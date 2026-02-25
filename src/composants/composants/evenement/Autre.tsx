@@ -18,14 +18,14 @@ export default function Autre() {
         <li className="autre-description">
           J'ai travaillé comme <b>secrétaire d'examen </b>à l'université auprès
           d'étudiants en situation de handicap.
-          <i className="competence">patience</i>
+          <i className="competence">Patience</i>
         </li>
         <li className="autre-description">
           J'ai été formé à l'iniation d'atelier scientifique par l'association
           ludilab'Oh pour intervenir auprès de lycéen et collégiens.
-          <i className="competence">médiation</i>
-          <i className="competence">vulgarisation</i>
-          <i className="competence">animation</i>
+          <i className="competence">Médiation</i>
+          <i className="competence">Vulgarisation</i>
+          <i className="competence">Animation</i>
         </li>
       </ul>
     </div>

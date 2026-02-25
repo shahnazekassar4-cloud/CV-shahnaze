@@ -6,11 +6,9 @@ export function PlusHumain() {
         <i className="competences-humaines">Animation</i>
         <i className="competences-humaines">Gestion de conflit</i>
       </div>
-      <br></br>
-      <div className="carte-description">
-        Au Canada j'ai été formé aux différents rôles et enjeux que l'on peut
-        retrouver dans des projets. J'ai pu appliquer ces compétences dans
-        l'organisation d'une journée de conférence.
+      <div className="carte-description mt-5">
+        Mes différentes expériences personnelles et professionnelles m'ont
+        permis d'appliquer ces comptences de façon concrètes
       </div>
     </div>
   );

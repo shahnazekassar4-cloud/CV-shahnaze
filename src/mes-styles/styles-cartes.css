@@ -80,15 +80,15 @@
   border-radius: 12px;
   font-style: normal; /* enlève l'italique du <i> */
   white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 11px;
+  font-size: 12px;
 }
 .competences-humaines {
   padding: 4px 8px;
-  background-color: #dff6e6;
+  background-color: #e7efd2;
   border-radius: 12px;
   font-style: normal; /* enlève l'italique du <i> */
   white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .competences-langues {
@@ -97,5 +97,5 @@
   border-radius: 12px;
   font-style: normal; /* enlève l'italique du <i> */
   white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 11px;
+  font-size: 12px;
 }

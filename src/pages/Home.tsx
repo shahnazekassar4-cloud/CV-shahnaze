@@ -9,7 +9,8 @@ import { listeInterets } from "../listes/listeCartes";
 import { ComposantCarte } from "../composants/ComposantCarte";
 import motivationsImg from "../img/motivations.png";
 import { Permis } from "../composants/Permis";
-import Autre from "../composants/composants/evenement/Autre";
+
+export type CouleurCompetenceProps = { couleur: string };
 
 const Home = () => {
   return (
