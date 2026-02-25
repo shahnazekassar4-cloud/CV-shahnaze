@@ -1,77 +1,85 @@
 @import "tailwindcss";
 
 .evenement-titre {
-  font-size: 15px;
-  font-weight: bold;
+	font-size: 15px;
+	font-weight: bold;
 }
 .evenement-date {
-  font-size: 12px;
-  width: 200px;
-  text-align: end;
+	font-size: 12px;
+	width: 200px;
+	text-align: end;
 }
 .evenement-description {
-  font-size: 13px;
-  font-style: italic;
-  text-align: justify;
-  margin-bottom: 5px;
+	font-size: 13px;
+	font-style: italic;
+	text-align: justify;
+	margin-bottom: 5px;
 }
 .evenement-position {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: start;
-  margin-bottom: 20px;
-  gap: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	max-width: 900px;
+	margin-bottom: 20px;
+	gap: 30px;
 }
 
 .bodures-evenement {
-  transition: all 0.5s;
-  border: 1px solid transparent;
-  /* border-radius: 10px; */
-  padding: 10px;
-  width: 100%;
+	display: flex;
+	justify-content: center;
+	transition: all 0.5s;
+	border: 1px solid transparent;
+
+	/* border-radius: 10px; */
+	padding: 25px;
+	width: 100%;
+	box-shadow: 0px 0px 0px rgb(241, 241, 241);
 }
 .bodures-evenement:hover {
-  box-shadow: 0px 0px 5px gray;
+	translate: 2px 0px;
+	box-shadow: 0px 0px 20px rgb(223, 223, 223);
+	cursor: pointer;
 }
 .logo {
-  height: 60px;
-  border-radius: 5px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+	max-height: 60px;
+	max-width: 100px;
+	border-radius: 5px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 .date-position {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
 }
 
 .bouton {
-  font-weight: bolder;
-  cursor: pointer;
-  border-color: transparent;
-  width: 20px;
-  font-size: 1.2em;
+	font-weight: bolder;
+	cursor: pointer;
+	border-color: transparent;
+	width: 20px;
+	font-size: 1.2em;
 }
 .bouton:hover {
-  border-color: white;
+	border-color: white;
 }
 
 .competences-emip {
-  padding: 4px 8px;
-  background-color: #fef7e8;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  font-size: 12px;
-  margin-right: 4px;
+	padding: 4px 8px;
+	background-color: #fef7e8;
+	border-radius: 12px;
+	font-style: normal; /* enlève l'italique du <i> */
+	font-size: 12px;
+	margin-right: 4px;
 }
 
 .competences-tlsM {
-  padding: 4px 8px;
-  background-color: #dcf3f7;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  font-size: 12px;
-  margin-right: 4px;
+	padding: 4px 8px;
+	background-color: #dcf3f7;
+	border-radius: 12px;
+	font-style: normal; /* enlève l'italique du <i> */
+	font-size: 12px;
+	margin-right: 4px;
 }

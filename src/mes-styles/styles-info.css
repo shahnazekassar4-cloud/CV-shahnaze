@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 .bouton-info:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .popup-info {
-  position: relative;
-  background-color: white;
-  border: transparent;
-  border-radius: 20px;
-  padding: 50px 50px 30px 30px;
-  font-style: italic;
-  font-size: 13px;
+	position: relative;
+	background-color: white;
+	border: transparent;
+	border-radius: 20px;
+	padding: 30px 50px 30px 30px;
+	font-style: italic;
+	font-size: 13px;
 }
