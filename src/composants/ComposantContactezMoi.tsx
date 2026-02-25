@@ -28,7 +28,7 @@ export default function BoutonContactezMoi() {
 export function ComposantContactezMoi(props: popupProps) {
   return (
     <div className="popup-layout" onClick={props.onClose}>
-      <div className="popup">
+      <div className="popup" onClick={(e) => e.stopPropagation()}>
         <button onClick={props.onClose} className="bouton-croix">
           ×
         </button>

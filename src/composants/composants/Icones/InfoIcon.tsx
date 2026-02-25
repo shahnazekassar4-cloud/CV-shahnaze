@@ -37,7 +37,10 @@ export default InfoIcon;
 function PopupInfo(props: popupProps) {
   return (
     <div className="popup-layout" onClick={props.onClose}>
-      <div className="popup-info w-150 text-justify">
+      <div
+        className="popup-info w-150 text-justify"
+        onClick={(e) => e.stopPropagation()}
+      >
         <button onClick={props.onClose} className="bouton-croix">
           ×
         </button>

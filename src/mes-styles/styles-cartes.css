@@ -27,7 +27,7 @@
   font-size: 15px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .carte-description {
@@ -64,4 +64,38 @@
   position: relative;
   top: -145px;
   left: -68.5px;
+}
+
+.competences-container {
+  display: flex;
+  flex-wrap: wrap; /* autorise le retour à la ligne */
+  gap: 8px; /* espace entre les éléments */
+  max-width: 100%; /* empêche de dépasser */
+  justify-content: space-around;
+}
+
+.competences-techniques {
+  padding: 4px 8px;
+  background-color: #fef7e8;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 11px;
+}
+.competences-humaines {
+  padding: 4px 8px;
+  background-color: #dff6e6;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 11px;
+}
+
+.competences-langues {
+  padding: 4px 8px;
+  background-color: #e0e6f4;
+  border-radius: 12px;
+  font-style: normal; /* enlève l'italique du <i> */
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 11px;
 }

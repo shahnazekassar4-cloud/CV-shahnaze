@@ -32,7 +32,7 @@ export const listeEcoles: Evenement[] = [
     date: "2024 • 2025",
     titre: "Université du Québec à Chicoutimi, Canada",
     description:
-      "Conseil en développement durable et transition socio-écologique. La",
+      "DESS en EcoConseil. Conseil en développement durable et transition socio-écologique à l'échelle des entreprises et des particuliers. Surement l'une des formations les plus riches sur le plan théorique, pratique et humain.",
     couleur: "#6C8A18",
     content: <PlusUqac />,
   },
@@ -42,7 +42,7 @@ export const listeEcoles: Evenement[] = [
     date: "2020 • 2025",
     titre: "Institut National des Sciences Appliquées, Toulouse",
     description:
-      "Génie des procédés appliqués à l’eau, l’énergie et l’environnement. Dimensionnement d’opérations unitaires et filières énergétiques",
+      "Génie des procédés appliqués à l’eau, l’énergie et l’environnement. Une formation avant scientifique et technique qui a su intégrer les sciences humaines et des valeurs engagés.",
     couleur: "#E42618",
     content: <PlusInsa />,
   },
@@ -51,7 +51,8 @@ export const listeEcoles: Evenement[] = [
     img: lgfImg,
     date: "Diplômée 2020",
     titre: "Lycée Gustave Flaubert, Tunisie",
-    description: "Bac S avec option SVT du lycée français de la Marsa",
+    description:
+      "Baccalauréat scientifique avec option science de la vie et de la terre du lycée français de la Marsa.",
     couleur: "#094196",
     content: <PlusLgf />,
   },
