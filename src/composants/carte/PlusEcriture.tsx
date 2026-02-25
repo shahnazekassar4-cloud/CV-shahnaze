@@ -3,8 +3,7 @@ export function PlusEcriture() {
     <div className="carte-description">
       <p>
         Depuis toujours je m'essai à l'ériture de toute forme : articles
-        engagés, poésie, fictions, chansons. C'est un moyen de m'exprimer et de
-        partager.
+        engagés, poésie, fictions, chansons.
       </p>
       <p>
         J'ai rédigé un article en italien pour la communication de Beity, une

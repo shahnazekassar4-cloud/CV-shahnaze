@@ -1,6 +1,6 @@
 export function PlusTechnique() {
   return (
-    <div className="competences-container">
+    <div className="competences-container mt-3">
       <i className="competences-techniques">Microsoft Office</i>
       <i className="competences-techniques">Notion</i>
       <i className="competences-techniques">QGIS</i>
