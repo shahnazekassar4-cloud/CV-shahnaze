@@ -23,6 +23,7 @@ export const listeCompetences: Carte[] = [
     couleur: "rgb(244,165,25)",
     couleurOmbre:
       "hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
+    // couleurOmbre: "hover:shadow-[0px_0px_20px_rgba(244,165,25,0.5)] hover:z-1",
     position: "absolute left-15 top-0 -rotate-10",
   },
   {

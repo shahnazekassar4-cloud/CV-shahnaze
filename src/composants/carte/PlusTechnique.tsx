@@ -1,22 +1,22 @@
 export function PlusTechnique() {
   return (
-    <div className="competences-container mt-3">
-      <i className="competences-techniques">Microsoft Office</i>
-      <i className="competences-techniques">Notion</i>
-      <i className="competences-techniques">QGIS</i>
-      <i className="competences-techniques">Blender</i>
-      <i className="competences-techniques">SketchUp</i>
-      <i className="competences-techniques">LibreCad</i>
-      <i className="competences-techniques">Epice Energie</i>
-      <i className="competences-techniques">Helioscope</i>
-      <i className="competences-techniques">Prosim</i>
-      <i className="competences-techniques">Fluent</i>
-      <i className="competences-techniques">React</i>
-      <i className="competences-techniques">TypeScript</i>
-      <i className="competences-techniques">HTML</i>
-      <i className="competences-techniques">CSS</i>
-      <i className="competences-techniques">VBA</i>
-      <i className="competences-techniques">Matlab</i>
-    </div>
+    <ul className="competences-container mt-3">
+      <li className="competences-techniques">Microsoft Office</li>
+      <li className="competences-techniques">Notion</li>
+      <li className="competences-techniques">QGIS</li>
+      <li className="competences-techniques">Blender</li>
+      <li className="competences-techniques">SketchUp</li>
+      <li className="competences-techniques">LibreCad</li>
+      <li className="competences-techniques">Epice Energie</li>
+      <li className="competences-techniques">Helioscope</li>
+      <li className="competences-techniques">Prosim</li>
+      <li className="competences-techniques">Fluent</li>
+      <li className="competences-techniques">React</li>
+      <li className="competences-techniques">TypeScript</li>
+      <li className="competences-techniques">HTML</li>
+      <li className="competences-techniques">CSS</li>
+      <li className="competences-techniques">VBA</li>
+      <li className="competences-techniques">Matlab</li>
+    </ul>
   );
 }
