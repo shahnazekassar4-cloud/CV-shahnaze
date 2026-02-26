@@ -2,7 +2,7 @@ import photoImg from "../img/photo-1.jpg";
 import InfoIcon from "./Icones/InfoIcon";
 export default function EnTete() {
   return (
-    <div className="entete mt-10 ">
+    <div className="entete mt-10">
       <div className="flex relative left-119">
         <InfoIcon />
       </div>

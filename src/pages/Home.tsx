@@ -78,7 +78,7 @@ const Home = () => {
         })}
       </div>
       <div className="parties">
-        <h2 className="chapitre">GESTION DE PROJET ET EVENEMENTS ANIMES</h2>
+        <h2 className="chapitre">PROJETS, EVENEMENTS, ASSOCIATIF</h2>
         {listeProjets.map((projet) => {
           return (
             <ComposantEvenement

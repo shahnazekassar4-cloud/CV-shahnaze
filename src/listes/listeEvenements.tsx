@@ -5,7 +5,7 @@ import tlsMImg from "../img/tlsM.jpg";
 import eccImg from "../img/ecoconseil.jpg";
 import otalentsImg from "../img/otalents.png";
 import lgfImg from "../img/lgf.jpg";
-// import recupImg from "../img/recup.jpg";
+import recupImg from "../img/recup.jpg";
 import type { ReactNode } from "react";
 import { PlusUqac } from "../composants/evenement/PlusUqac";
 import { PlusInsa } from "../composants/evenement/PlusInsa";
@@ -17,6 +17,8 @@ import { PlusOtalents } from "../composants/evenement/PlusOtalents";
 import { CompetencesEmip } from "../composants/Competences/CompetencesEmip";
 import { CompetencesTlsM } from "../composants/Competences/CompetencesTlsM";
 import Autre from "../composants/evenement/Autre";
+import { CompetencesEcc } from "../composants/Competences/CompetencesEcc";
+import { CompetencesOtalents } from "../composants/Competences/CompetencesOtalents";
 
 export type Evenement = {
   id: number;
@@ -72,8 +74,28 @@ export const listeExp: Evenement[] = [
     date: "Mai 2025 (6 mois)",
     titre:
       "Développement et suivi d'exploitation de parcs photovoltaïques au sol, Toulouse",
-    description:
-      "Prospection, étude de préfaisabilité, développement, montage dossiers réglementaires (dérogations environnementales, déclarations préalables) pour des projets de 300KWc à 1MWc. Développement d’un outil de prévision de production des parcs et flux financiers : identification des parcs sous performants et des causes. Contribution à la stratégie carbone et aux réflexions IA au sein de la coopérative",
+    description: (
+      <div>
+        <p>
+          Projets de 300kWc à 1MWc : prospection, étude de pré-faisabilité,
+          développement, montage des demandes d'autorisation (dérogations
+          d'étude d'impact, déclarations préalables).
+        </p>
+        <p>
+          Développement d’un outil pour analyser la production passé et faire
+          des prévisions sur la production future parcs : identification des
+          parcs sous performants et quantification des causes.
+        </p>
+        <p>
+          Participation au groupe de travail sur la stratégie carbone :
+          plannification des actions pour réduire l'empreinte carbone de
+          l'activité. Participation au groupe de travail sur la réflexions
+          autour de IA dans notre activité. Participation activite à la vie
+          coopérative.
+        </p>
+      </div>
+    ),
+
     couleur: "#F4A519",
     content: <PlusEmip />,
     competences: <CompetencesEmip />,
@@ -83,8 +105,20 @@ export const listeExp: Evenement[] = [
     img: tlsMImg,
     date: "Juin 2024 (2 mois)",
     titre: "Prospective, Étude et Programmation, Toulouse",
-    description:
-      "Optimisation d’un outil d’aide à la décision, réduisant le temps d’analyse (20 min à 10 secondes) et amélioration de la fiabilité du programme de travaux du réseau d’eau potable.Mise à jour du rapport de stratégie de gestion patrimoniale du réseau d’eau potable à communiquer aux élus.",
+    description: (
+      <div>
+        <p>
+          Optimisation d’un outil d’aide à la décision, réduisant le temps
+          d’analyse (20 min à 10 secondes). Amélioration de la fiabilité du
+          programme de travaux du réseau d’eau potable. Rédaction de la
+          documentation du nouvel outil.
+        </p>
+        <p>
+          Mise à jour du rapport de stratégie de gestion patrimoniale du réseau
+          d’eau potable à communiquer aux élus.
+        </p>
+      </div>
+    ),
     couleur: "#479FB1",
     content: <PlusTlsM />,
     competences: <CompetencesTlsM />,
@@ -102,25 +136,22 @@ export const listeExp: Evenement[] = [
 ];
 
 export const listeProjets: Evenement[] = [
-  // {
-  //   id: 3,
-  //   img: recupImg,
-  //   date: "2026",
-  //   titre: "Bénévolat : Réccup'Occitanie",
-  //   description: "composatage",
-  //   couleur: "#003e28",
-  //   content: "<PlusTlsM />", competences:"",
-  // },
   {
     id: 2,
     img: eccImg,
     date: "2024 • 2025",
     titre: "Repenser la prise de décision dans la transition socio-écologique",
-    description:
-      "Organisation d’une journée de conférence, d’un panel et cocréation d’un atelier participatif pour expérimenter différentes méthodes de prise de décision avec des élus, chercheurs et étudiants. Gestion de la trésorerie et des partenariats.",
+    description: (
+      <div>
+        Organisation d’une journée de conférence, d’un panel et cocréation d’un
+        atelier participatif pour expérimenter différentes méthodes de prise de
+        décision avec des élus, chercheurs et étudiants. Gestion de la
+        trésorerie et des partenariats.
+      </div>
+    ),
     couleur: "#00A651",
     content: <PlusEcc />,
-    competences: "",
+    competences: <CompetencesEcc />,
   },
   {
     id: 1,
@@ -131,6 +162,23 @@ export const listeProjets: Evenement[] = [
       "Recrutement et formation des 60 tuteurs. Accompagnement de 400 collégiens et lycées pour promouvoir les études supérieures, lutter contre l’auto-censure et développer la culture générale. Création d’une vidéo promotionnelle pour la communication du dispositif.",
     couleur: "#EF3125",
     content: <PlusOtalents />,
+    competences: <CompetencesOtalents />,
+  },
+  {
+    id: 3,
+    img: recupImg,
+    date: "2026",
+    titre: "Réccup'Occitanie, bénévolat",
+    description:
+      "  Vidange et nettoyage des bokashis. Retournement des caissons de composte.",
+    couleur: "#003e28",
+    content: (
+      <u className="evenement-description">
+        <a href="https://www.recup-compostage-urbain.fr/" target="_blank">
+          ...voir le site
+        </a>
+      </u>
+    ),
     competences: "",
   },
 ];

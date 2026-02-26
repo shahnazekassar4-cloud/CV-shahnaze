@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+.competences-container-cartes {
+  display: flex;
+  flex-wrap: wrap; /* autorise le retour à la ligne */
+  gap: 8px; /* espace entre les éléments */
+  max-width: 100%; /* empêche de dépasser */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.competences-techniques {
+  padding: 4px 8px;
+  background-color: #fef7e8;
+  border-radius: 12px;
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 12px;
+}
+.competences-humaines {
+  padding: 4px 8px;
+  background-color: #e7efd2;
+  border-radius: 12px;
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 12px;
+}
+
+.competences-langues {
+  padding: 4px 8px;
+  background-color: #e0e6f4;
+  border-radius: 12px;
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 12px;
+}
+
+.competences-sport {
+  padding: 4px 8px;
+  background-color: #ffdcdc;
+  border-radius: 12px;
+  white-space: nowrap; /* évite les retours à la ligne internes */
+  font-size: 12px;
+}
+
+.competences-container-evenement {
+  display: flex;
+  gap: 8px; /* espace entre les éléments */
+  max-width: 100%; /* empêche de dépasser */
+}
+
+.competences-emip {
+  padding: 4px 8px;
+  background-color: #fef7e8;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.competences-tlsM {
+  padding: 4px 8px;
+  background-color: #dcf3f7;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.competences-otalents {
+  padding: 4px 8px;
+  background-color: #ffdcdc;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.competences-ecc {
+  padding: 4px 8px;
+  background-color: #deffe7;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.competences-autre {
+  background-color: #e8f1fd;
+  padding: 0px 5px 2px 5px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.competences-recupocci {
+  padding: 4px 8px;
+
+  background-color: #ced9d2;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}

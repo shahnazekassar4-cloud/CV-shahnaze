@@ -18,9 +18,9 @@ export default function Popup(props: PopupProps) {
           className={`popup-info text-justify ${className}`}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="flex justify-between ">
+          <div className="flex justify-between">
             {title && <b className="mb-3">{title}</b>}
-            <button onClick={props.onClose} className="bouton-croix w-7">
+            <button onClick={props.onClose} className="bouton-croix">
               <XIcon />
             </button>
           </div>

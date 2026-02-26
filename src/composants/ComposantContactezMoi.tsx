@@ -22,7 +22,7 @@ export default function BoutonContactezMoi() {
       </div>
       {/* {popupVisible == true && <ComposantContactezMoi onClose={closePopup} />} */}
       <Popup isVisible={popupVisible} onClose={closePopup}>
-        <div className="flex row items-end gap-10">
+        <div className="flex row items-end gap-7">
           <img src={photoImg} className="w-20 photo mb-5" />
           <ul>
             {listeCoordonnees.map((coo) => {

@@ -1,6 +1,6 @@
-import gpsImg from "../img/gps.png";
+import gpsImg from "../img/map-pin.png";
 import mailImg from "../img/mail.png";
-import telephone from "../img/telephone.png";
+import telephone from "../img/phone.png";
 import linkedin from "../img/linkedin.png";
 import type { ReactNode } from "react";
 

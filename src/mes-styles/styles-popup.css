@@ -1,49 +1,48 @@
 @import "tailwindcss";
 
 .popup-layout {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup {
-	position: relative;
-	background-color: white;
-	border: transparent;
-	border-radius: 20px;
-	padding: 50px 50px 30px 30px;
+  position: relative;
+  background-color: white;
+  border: transparent;
+  border-radius: 20px;
 }
 
 .popup-titre {
-	font-size: 1em;
-	margin-bottom: 15px;
+  font-size: 1em;
+  margin-bottom: 15px;
 }
 
 .icone {
-	width: 30px;
-	scale: 60%;
-	margin-right: 7px;
+  width: 30px;
+  scale: 60%;
+  margin-right: 7px;
 }
 
 .bouton-croix {
-	position: absolute;
-	top: 15px;
-	right: 25px;
-	cursor: pointer;
-	border: transparent;
-	background: transparent;
-	padding: 5px;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  cursor: pointer;
+  border: transparent;
+  background: transparent;
+  padding: 5px;
 }
 
 .liste-position {
-	align-items: center;
-	font-style: normal;
-	display: flex;
-	flex-direction: row;
+  align-items: center;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
 }

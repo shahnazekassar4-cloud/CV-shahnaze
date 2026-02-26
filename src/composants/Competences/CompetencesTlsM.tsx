@@ -1,7 +1,10 @@
 export function CompetencesTlsM() {
   return (
     <div>
-      <i className="competences-tlsM">VBA</i>
+      <ul className="competences-container-evenement">
+        <li className="competences-tlsM">Autonomie</li>
+        <li className="competences-tlsM">Prise d'initiative</li>
+      </ul>
     </div>
   );
 }

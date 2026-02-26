@@ -10,6 +10,7 @@ import "./mes-styles/styles-pages.css";
 import "./mes-styles/styles-popup.css";
 import "./mes-styles/styles-info.css";
 import "./mes-styles/styles-autres.css";
+import "./mes-styles/styles-competences.css";
 import App from "./App.tsx";
 
 createRoot(document.getElementById("root")!).render(

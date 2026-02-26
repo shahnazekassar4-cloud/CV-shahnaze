@@ -31,11 +31,11 @@ function InfoIcon() {
       <Popup
         onClose={closePopup}
         isVisible={popupVisible}
-        title={"Un Titre"}
+        title={"Pourquoi ce projet ?"}
         className="w-150"
       >
         A la fois à la recherche de mon premier emplois et en pleine prise de
-        recule sur mes ambitions professionnelles, j'ai voulu resté active et
+        recul sur mes ambitions professionnelles, j'ai voulu resté active et
         continuer de monter en compétence. C'est pour cela que je me suis formée
         au développement web au travers de différents projets donc ce CV en
         ligne. J'espère que cela saura vous convaincre sur mon autotomie et ma

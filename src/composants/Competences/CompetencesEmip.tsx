@@ -1,9 +1,10 @@
 export function CompetencesEmip() {
   return (
-    <div>
-      <i className="competences-emip">Helioscope</i>
-      <i className="competences-emip">LibreCad</i>
-      <i className="competences-emip">Epice Energie</i>
-    </div>
+    <ul className="competences-container-evenement">
+      <li className="competences-emip">Esprit critique</li>
+      <li className="competences-emip">Négociation</li>
+      <li className="competences-emip">Communication</li>
+      <li className="competences-emip">Gouvernance en coopérative</li>
+    </ul>
   );
 }
