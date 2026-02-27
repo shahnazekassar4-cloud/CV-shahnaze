@@ -1,15 +1,16 @@
 export function PlusHumain() {
   return (
-    <div>
-      <ul className="competences-container mt-3">
-        <li className="competences-humaines">Gestion de projet</li>
-        <li className="competences-humaines">Animation</li>
-        <li className="competences-humaines">Gestion de conflit</li>
-      </ul>
-      <div className="carte-description mt-3">
-        Mes différentes expériences personnelles et professionnelles m'ont
-        permis d'appliquer ces comptences de façon concrètes.
-      </div>
-    </div>
+    <ul className="competences-container-cartes mt-3">
+      <li className="competences-humaines">Gestion de projet</li>{" "}
+      <li className="competences-humaines">Animation</li>{" "}
+      <li className="competences-humaines">Ésprit critique</li>{" "}
+      <li className="competences-humaines">Écoute active</li>{" "}
+      <li className="competences-humaines">Professionalisme</li>
+      <li className="competences-humaines">Autonomie</li>
+      <li className="competences-humaines">Prise d'initiative</li>
+      <li className="competences-humaines">Bienveillance</li>{" "}
+      <li className="competences-humaines">Rigueur</li>{" "}
+      <li className="competences-humaines">Passionnée</li>{" "}
+    </ul>
   );
 }

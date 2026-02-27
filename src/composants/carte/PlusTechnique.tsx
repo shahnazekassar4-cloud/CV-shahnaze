@@ -14,9 +14,9 @@ export function PlusTechnique() {
       <li className="competences-techniques">React</li>
       <li className="competences-techniques">TypeScript</li>
       <li className="competences-techniques">HTML</li>
-      <li className="competences-techniques">CSS</li>
-      <li className="competences-techniques">VBA</li>
       <li className="competences-techniques">Matlab</li>
+      <li className="competences-techniques">VBA</li>
+      <li className="competences-techniques">CSS</li>
     </ul>
   );
 }
