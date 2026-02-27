@@ -8,7 +8,7 @@ export function PlusHumain() {
       </ul>
       <div className="carte-description mt-3">
         Mes différentes expériences personnelles et professionnelles m'ont
-        permis d'appliquer ces comptences de façon concrètes
+        permis d'appliquer ces comptences de façon concrètes.
       </div>
     </div>
   );

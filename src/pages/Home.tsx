@@ -78,7 +78,7 @@ const Home = () => {
         })}
       </div>
       <div className="parties">
-        <h2 className="chapitre">GESTION DE PROJET ET EVENEMENTS ANIMES</h2>
+        <h2 className="chapitre">PROJETS, EVENEMENTS, ASSOCIATIF</h2>
         {listeProjets.map((projet) => {
           return (
             <ComposantEvenement
@@ -116,6 +116,14 @@ const Home = () => {
         </div>
       </div>
       <BoutonContactezMoi />
+      <div className="parties">
+        <a
+          className="telechargement"
+          href="https://drive.google.com/uc?export=download&id=1RWjyybfZgKfMXoSwhIgE56HzrJMOBDBN"
+        >
+          Télécharger mon CV au format PDF
+        </a>
+      </div>
     </div>
   );
 };

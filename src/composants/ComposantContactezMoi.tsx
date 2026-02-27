@@ -1,7 +1,7 @@
-type popupProps = { onClose: () => void };
 import { listeCoordonnees } from "../listes/listeCoordonnees";
 import photoImg from "../img/photo-1.jpg";
 import { useState } from "react";
+import Popup from "./Popup";
 
 export default function BoutonContactezMoi() {
   const [popupVisible, setPopupVisible] = useState<boolean>(false);
@@ -20,19 +20,9 @@ export default function BoutonContactezMoi() {
           Contactez-moi !
         </button>
       </div>
-      {popupVisible == true && <ComposantContactezMoi onClose={closePopup} />}
-    </div>
-  );
-}
-
-export function ComposantContactezMoi(props: popupProps) {
-  return (
-    <div className="popup-layout" onClick={props.onClose}>
-      <div className="popup" onClick={(e) => e.stopPropagation()}>
-        <button onClick={props.onClose} className="bouton-croix">
-          ×
-        </button>
-        <div className="flex row items-end gap-10">
+      {/* {popupVisible == true && <ComposantContactezMoi onClose={closePopup} />} */}
+      <Popup isVisible={popupVisible} onClose={closePopup}>
+        <div className="flex row items-end gap-7">
           <img src={photoImg} className="w-20 photo mb-5" />
           <ul>
             {listeCoordonnees.map((coo) => {
@@ -44,7 +34,7 @@ export function ComposantContactezMoi(props: popupProps) {
             })}
           </ul>
         </div>
-      </div>
+      </Popup>
     </div>
   );
 }

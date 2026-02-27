@@ -1,6 +1,6 @@
 export function PlusTechnique() {
   return (
-    <ul className="competences-container mt-3">
+    <ul className="competences-container-cartes">
       <li className="competences-techniques">Microsoft Office</li>
       <li className="competences-techniques">Notion</li>
       <li className="competences-techniques">QGIS</li>

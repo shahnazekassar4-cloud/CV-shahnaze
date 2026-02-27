@@ -18,7 +18,6 @@
   border-color: #e42618;
   border-radius: 10px;
   padding: 10px;
-  rotate: 5deg;
   width: 130px;
   color: #e42618;
 }
@@ -27,13 +26,15 @@
   font-size: 15px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .carte-description {
   font-size: 13px;
   font-style: italic;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .carte-competences-position {
@@ -44,67 +45,23 @@
 }
 .carte-interets-position {
   display: flex;
-  /* flex-direction: column; */
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .carte-interets-position {
     flex-direction: row;
     justify-content: center;
   }
-} */
+}
 
 .photo-malo {
   scale: 40%;
   position: relative;
-  top: -145px;
-  left: -68.5px;
-}
-
-.competences-container {
-  display: flex;
-  flex-wrap: wrap; /* autorise le retour à la ligne */
-  gap: 8px; /* espace entre les éléments */
-  max-width: 100%; /* empêche de dépasser */
-  justify-content: space-around;
-}
-
-.competences-techniques {
-  padding: 4px 8px;
-  background-color: #fef7e8;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 12px;
-}
-.competences-humaines {
-  padding: 4px 8px;
-  background-color: #e7efd2;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 12px;
-}
-
-.competences-langues {
-  padding: 4px 8px;
-  background-color: #e0e6f4;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 12px;
-}
-
-.competences-sport {
-  padding: 4px 8px;
-  background-color: #ffdcdc;
-  border-radius: 12px;
-  font-style: normal; /* enlève l'italique du <i> */
-  white-space: nowrap; /* évite les retours à la ligne internes */
-  font-size: 12px;
+  top: -123px;
+  left: -72.5px;
 }

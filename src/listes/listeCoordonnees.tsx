@@ -1,13 +1,14 @@
-import gpsImg from "../img/gps.png";
+import gpsImg from "../img/map-pin.png";
 import mailImg from "../img/mail.png";
-import telephone from "../img/telephone.png";
+import telephone from "../img/phone.png";
 import linkedin from "../img/linkedin.png";
+import type { ReactNode } from "react";
 
 export type Coordonnees = {
   id: number;
   logo: string;
   nom: string;
-  info: string;
+  info: string | ReactNode;
 };
 export const listeCoordonnees: Coordonnees[] = [
   {
@@ -20,7 +21,11 @@ export const listeCoordonnees: Coordonnees[] = [
     id: 2,
     logo: mailImg,
     nom: "Email",
-    info: "shahnazekassar4@gmail.com",
+    info: (
+      <a href="mailto:shahnazekassar4@gmail.com" className="hover:underline">
+        shahnazekassar4@gmail.com
+      </a>
+    ),
   },
   {
     id: 3,
@@ -32,6 +37,14 @@ export const listeCoordonnees: Coordonnees[] = [
     id: 4,
     logo: linkedin,
     nom: "LinkedIn",
-    info: "www.linkedin.com",
+    info: (
+      <a
+        href="https://www.linkedin.com/in/shahnaze-kassar-519898205?originalSubdomain=fr"
+        className="hover:underline"
+        target="_blank"
+      >
+        www.linkedin.com
+      </a>
+    ),
   },
 ];

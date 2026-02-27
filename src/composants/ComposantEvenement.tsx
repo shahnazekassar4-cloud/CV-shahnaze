@@ -13,37 +13,46 @@ type contentProps = { content: ReactNode };
 
 export function ComposantEvenement(event: Evenement) {
   const [contentIsVisible, setContentIsVisible] = useState<boolean>(false);
+  const toggleContent = () => {
+    setContentIsVisible(!contentIsVisible);
+  };
   return (
-    <div className="evenement-position bodures-evenement">
-      <img src={event.img} className="logo" />
-      <div className="w-200 ">
-        <div className="date-position">
-          <div className="evenement-titre" style={{ color: event.couleur }}>
-            {event.titre}
-          </div>
-          <div className="evenement-date" style={{ color: event.couleur }}>
-            {event.date}
-          </div>
+    <div className=" bodures-evenement" onClick={toggleContent}>
+      <div className="evenement-position">
+        <div className="w-30">
+          <img src={event.img} className="logo" />
         </div>
-        <div className="evenement-description">{event.description}</div>
-        {contentIsVisible == true && <PlusEvenement content={event.content} />}
-        {event.competences}
+        <div className="w-200 ">
+          <div className="date-position">
+            <div className="evenement-titre" style={{ color: event.couleur }}>
+              {event.titre}
+            </div>
+            <div className="evenement-date" style={{ color: event.couleur }}>
+              {event.date}
+            </div>
+          </div>
+          <div className="evenement-description">{event.description}</div>
+          {contentIsVisible == true && (
+            <PlusEvenement content={event.content} />
+          )}
+          {event.competences}
+        </div>
+        {contentIsVisible ? (
+          <Bouton
+            couleur={event.couleur}
+            onClick={() => setContentIsVisible(false)}
+          >
+            <MinusIcon />
+          </Bouton>
+        ) : (
+          <Bouton
+            couleur={event.couleur}
+            onClick={() => setContentIsVisible(true)}
+          >
+            <PlusIcon />
+          </Bouton>
+        )}
       </div>
-      {contentIsVisible ? (
-        <Bouton
-          couleur={event.couleur}
-          onClick={() => setContentIsVisible(false)}
-        >
-          <MinusIcon />
-        </Bouton>
-      ) : (
-        <Bouton
-          couleur={event.couleur}
-          onClick={() => setContentIsVisible(true)}
-        >
-          <PlusIcon />
-        </Bouton>
-      )}
     </div>
   );
 }

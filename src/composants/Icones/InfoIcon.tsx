@@ -1,5 +1,5 @@
 import { useState } from "react";
-type popupProps = { onClose: () => void };
+import Popup from "../Popup";
 
 function InfoIcon() {
   const [popupVisible, setPopupVisible] = useState<boolean>(false);
@@ -28,31 +28,19 @@ function InfoIcon() {
         <line x1="12" x2="12" y1="16" y2="12" />
         <line x1="12" x2="12.01" y1="8" y2="8" />
       </svg>
-      {popupVisible == true && <PopupInfo onClose={closePopup} />}
+      <Popup
+        onClose={closePopup}
+        isVisible={popupVisible}
+        title={"Pourquoi ce projet ?"}
+        className="w-150"
+      >
+        À la fois à la recherche de mon premier emploi et en pleine prise de
+        recul sur mes ambitions professionnelles, j'ai voulu rester active et
+        continuer de monter en compétence. C'est pour cela que je me suis formée
+        au développement web au travers de différents projets dont ce CV en
+        ligne.
+      </Popup>
     </div>
   );
 }
 export default InfoIcon;
-
-function PopupInfo(props: popupProps) {
-  return (
-    <div className="popup-layout" onClick={props.onClose}>
-      <div
-        className="popup-info w-150 text-justify"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button onClick={props.onClose} className="bouton-croix">
-          ×
-        </button>
-        <div>
-          A la fois à la recherche de mon premier emplois et en pleine prise de
-          recule sur mes ambitions professionnelles, j'ai voulu resté active et
-          continuer de monter en compétence. C'est pour cela que je me suis
-          formée au développement web au travers de différents projets donc ce
-          CV en ligne. J'espère que cela saura vous convaincre sur mon autotomie
-          et ma créativité.
-        </div>
-      </div>
-    </div>
-  );
-}

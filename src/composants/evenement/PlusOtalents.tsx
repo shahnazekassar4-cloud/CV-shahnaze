@@ -11,6 +11,7 @@ export function PlusOtalents() {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
         style={{ border: "2px solid transparent", borderRadius: "10px" }}
+        className="mb-3"
       ></iframe>
     </div>
   );
