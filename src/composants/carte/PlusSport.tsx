@@ -9,8 +9,8 @@ export function PlusSport() {
         <li className="competences-sport">Badminton</li>
         <li className="competences-sport">Course à pied</li>
       </ul>
-      <p className="carte-description mt-5">
-        Le sport m'a apporté un fort esprit d'équipe ainsi qu'une endurance
+      <p className="carte-description mt-3">
+        Le sport m'a apporté un fort esprit d'équipe ainsi qu'une endurrence
         physique et mentale.
       </p>
     </div>

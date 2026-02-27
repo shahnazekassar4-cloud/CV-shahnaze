@@ -1,6 +1,6 @@
 export function PlusTechnique() {
   return (
-    <div className="competences-container-cartes">
+    <ul className="competences-container-cartes">
       <li className="competences-techniques">Microsoft Office</li>
       <li className="competences-techniques">Notion</li>
       <li className="competences-techniques">QGIS</li>
@@ -17,6 +17,6 @@ export function PlusTechnique() {
       <li className="competences-techniques">CSS</li>
       <li className="competences-techniques">VBA</li>
       <li className="competences-techniques">Matlab</li>
-    </div>
+    </ul>
   );
 }
