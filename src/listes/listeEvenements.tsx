@@ -38,7 +38,7 @@ export const listeEcoles: Evenement[] = [
     date: "2024 • 2025",
     titre: "Université du Québec à Chicoutimi, Canada",
     description:
-      "DESS en EcoConseil. Conseil en développement durable et transition socio-écologique à l'échelle des entreprises et des particuliers. Surement l'une des formations les plus riches sur le plan théorique, pratique et humain.",
+      "DESS en Eco-Conseil. Conseil en développement durable et transition socio-écologique à l'échelle des entreprises et des particuliers. Sûrement l'une des formations les plus riches sur le plan théorique, pratique et humain.",
     couleur: "#6C8A18",
     content: <PlusUqac />,
     competences: "",
@@ -49,7 +49,7 @@ export const listeEcoles: Evenement[] = [
     date: "2020 • 2025",
     titre: "Institut National des Sciences Appliquées, Toulouse",
     description:
-      "Génie des procédés appliqués à l’eau, l’énergie et l’environnement. Une formation avant scientifique et technique qui a su intégrer les sciences humaines et des valeurs engagés.",
+      "Génie des procédés appliqués à l’eau, l’énergie et l’environnement. Une formation avant tout scientifique et technique qui a su intégrer les sciences humaines et des valeurs engagées.",
     couleur: "#E42618",
     content: <PlusInsa />,
     competences: "",
@@ -60,7 +60,7 @@ export const listeEcoles: Evenement[] = [
     date: "Diplômée 2020",
     titre: "Lycée Gustave Flaubert, Tunisie",
     description:
-      "Baccalauréat scientifique avec option science de la vie et de la terre du lycée français de la Marsa.",
+      "Baccalauréat Scientifique avec option Sciences de la Vie et de la Terre du lycée français de la Marsa.",
     couleur: "#094196",
     content: <PlusLgf />,
     competences: "",
@@ -82,15 +82,15 @@ export const listeExp: Evenement[] = [
           d'étude d'impact, déclarations préalables).
         </p>
         <p>
-          Développement d’un outil pour analyser la production passé et faire
-          des prévisions sur la production future parcs : identification des
+          Développement d’un outil pour analyser la production passée et faire
+          des prévisions sur la production future des parcs : identification des
           parcs sous performants et quantification des causes.
         </p>
         <p>
           Participation au groupe de travail sur la stratégie carbone :
           plannification des actions pour réduire l'empreinte carbone de
-          l'activité. Participation au groupe de travail sur la réflexions
-          autour de IA dans notre activité. Participation activite à la vie
+          l'activité. Participation au groupe de travail sur la réflexion autour
+          de IA dans notre activité. Participation activite à la vie
           coopérative.
         </p>
       </div>
@@ -127,7 +127,7 @@ export const listeExp: Evenement[] = [
     id: 3,
     img: "",
     date: "",
-    titre: "Autres stages et expériences",
+    titre: "Voir mes autres stages et expériences ...",
     description: "",
     couleur: "#094196",
     content: <Autre />,
@@ -159,7 +159,7 @@ export const listeProjets: Evenement[] = [
     date: "2023 • 2025",
     titre: "Programme Ô talents de l’INSA, Cordées de la réussite",
     description:
-      "Recrutement et formation des 60 tuteurs. Accompagnement de 400 collégiens et lycées pour promouvoir les études supérieures, lutter contre l’auto-censure et développer la culture générale. Création d’une vidéo promotionnelle pour la communication du dispositif.",
+      "Recrutement et formation des 60 tuteurs. Accompagnement de 400 collégiens et lycéens pour promouvoir les études supérieures, lutter contre l’auto-censure et développer la culture générale. Création d’une vidéo promotionnelle pour la communication du dispositif.",
     couleur: "#EF3125",
     content: <PlusOtalents />,
     competences: <CompetencesOtalents />,

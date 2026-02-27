@@ -116,6 +116,14 @@ const Home = () => {
         </div>
       </div>
       <BoutonContactezMoi />
+      <div className="parties">
+        <a
+          className="telechargement"
+          href="https://drive.google.com/uc?export=download&id=1RWjyybfZgKfMXoSwhIgE56HzrJMOBDBN"
+        >
+          Télécharger mon CV au format PDF
+        </a>
+      </div>
     </div>
   );
 };

@@ -23,7 +23,7 @@ export const listeCompetences: Carte[] = [
     couleur: "rgb(244,165,25)",
     couleurOmbre:
       "hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
-    position: "absolute left-15 top-0 -rotate-10",
+    position: "absolute left-30 top-0 -rotate-5",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const listeCompetences: Carte[] = [
     couleur: "#6C8A18",
     couleurOmbre:
       "hover:shadow-[7px_5px_0px_-1px_rgba(108,138,24,0.5)] hover:z-1",
-    position: "absolute right-3 top-20 rotate-10",
+    position: "absolute right-0 top-20",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const listeCompetences: Carte[] = [
     couleur: "#094196",
     couleurOmbre:
       " hover:shadow-[7px_5px_0px_-1px_rgba(9,65,150,0.5)] hover:z-1",
-    position: "absolute bottom-0 right-20",
+    position: "absolute bottom-21 right-25 rotate-5",
   },
 ];
 export const listeInterets: Carte[] = [
@@ -52,7 +52,7 @@ export const listeInterets: Carte[] = [
     couleur: "#F4A519",
     couleurOmbre:
       " hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
-    position: "-rotate-10",
+    position: "-rotate-5 relative left-9",
   },
 
   {
@@ -62,7 +62,7 @@ export const listeInterets: Carte[] = [
     couleur: "#094196",
     couleurOmbre:
       "hover:shadow-[7px_5px_0px_-1px_rgba(9,65,150,0.5)] hover:z-1",
-    position: "rotate-10",
+    position: "rotate-5 relative left-3.5 bottom-3",
   },
   {
     id: 3,
@@ -71,7 +71,7 @@ export const listeInterets: Carte[] = [
     couleur: "#00A651",
     couleurOmbre:
       " hover:shadow-[7px_5px_0px_-1px_rgba(0,166,81,0.5)] hover:z-1",
-    position: "-rotate-10",
+    position: "-rotate-5 relative right-3.5",
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ export const listeInterets: Carte[] = [
     description: <PlusSport />,
     couleur: "#E42618",
     couleurOmbre:
-      "rotate-10 hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] hover:z-1",
-    position: "rotate-10",
+      "hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] hover:z-1",
+    position: "rotate-5 relative right-9 bottom-3",
   },
 ];

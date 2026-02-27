@@ -13,23 +13,21 @@ export default function EnTete() {
             <h1 className="sous-en-tete-0">SHAHNAZE KASSAR</h1>
             <div className="sous-en-tete-1">
               <p>
-                <b className="texte">Ingénieure</b> procédés en eau, énergie,
-                environnement.
+                <b>Ingénieure</b> procédés en eau, énergie, environnement.
               </p>
               <p>
                 Conseil en développement durable et
-                <b className="texte"> transition socio-écologique</b>.
+                <b> transition socio-écologique</b>.
               </p>
             </div>
           </div>
         </div>
         <div className="sous-en-tete-2">
           Je conçois et optimise des
-          <b className="texte"> solutions techniques</b> durables tout en
-          intégrant les enjeux socio-écologiques actuels. Je recherche un poste
-          à impact dans l’énergie, la mobilité ou l’environnement pour donner un
-          une dimension
-          <b className="texte"> engagée</b> à mon parcours professionnel.
+          <b> solutions techniques</b> durables tout en intégrant les enjeux
+          socio-écologiques actuels. Je recherche un poste à impact dans
+          l’énergie, la mobilité ou l’environnement pour donner une dimension
+          <b> engagée</b> à mon parcours professionnel.
         </div>
       </div>
     </div>

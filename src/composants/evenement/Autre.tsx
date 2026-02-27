@@ -13,15 +13,15 @@ export default function Autre() {
         </li>
         <li className="autre-description">
           <b>Hi-Tech Detection Systems, Tunis | </b>Visite de laboratoires et
-          maintenances des dispositifs PCR.
+          maintenance des dispositifs PCR.
         </li>
         <li className="autre-description">
           J'ai travaillé comme <b>secrétaire d'examen </b>à l'université auprès
           d'étudiants en situation de handicap.
         </li>
         <li className="autre-description">
-          J'ai été formé à l'iniation d'<b>atelier scientifique</b> par
-          l'association ludilab'Oh pour intervenir auprès de lycéen et
+          J'ai été formé à l'animation d'<b>atelier scientifique</b> par
+          l'association ludilab'Oh pour intervenir auprès de lycéens et
           collégiens.{" "}
           <u>
             <a

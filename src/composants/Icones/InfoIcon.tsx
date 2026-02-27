@@ -34,12 +34,11 @@ function InfoIcon() {
         title={"Pourquoi ce projet ?"}
         className="w-150"
       >
-        A la fois à la recherche de mon premier emplois et en pleine prise de
-        recul sur mes ambitions professionnelles, j'ai voulu resté active et
+        À la fois à la recherche de mon premier emploi et en pleine prise de
+        recul sur mes ambitions professionnelles, j'ai voulu rester active et
         continuer de monter en compétence. C'est pour cela que je me suis formée
-        au développement web au travers de différents projets donc ce CV en
-        ligne. J'espère que cela saura vous convaincre sur mon autotomie et ma
-        créativité.
+        au développement web au travers de différents projets dont ce CV en
+        ligne.
       </Popup>
     </div>
   );
