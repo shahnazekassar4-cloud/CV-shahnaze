@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 .fenetre {
-  border-color: rgb(255, 0, 0);
   width: 100%;
 }
 .chapitre {
