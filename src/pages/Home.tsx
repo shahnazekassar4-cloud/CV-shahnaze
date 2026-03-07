@@ -13,119 +13,119 @@ import { Permis } from "../composants/Permis";
 export type CouleurCompetenceProps = { couleur: string };
 
 const Home = () => {
-  return (
-    <div>
-      <EnTete />
-      <BoutonContactezMoi />
-      <div className="parties">
-        <h2 className="chapitre">MES FORMATIONS</h2>
-        {listeEcoles.map((ecole) => {
-          return (
-            <ComposantEvenement
-              key={ecole.id}
-              id={ecole.id}
-              img={ecole.img}
-              date={ecole.date}
-              titre={ecole.titre}
-              description={ecole.description}
-              couleur={ecole.couleur}
-              content={ecole.content}
-              competences={ecole.competences}
-            />
-          );
-        })}
-      </div>
-      <div className="parties">
-        <h2 className="chapitre">MES COMPETENCES</h2>
-        <div className="flex justify-center mt-10 gap-10">
-          <div className="carte-competences-position relative w-130 h-155">
-            {listeCompetences.map((competence) => {
-              return (
-                <ComposantCarte
-                  key={competence.id}
-                  id={competence.id}
-                  titre={competence.titre}
-                  description={competence.description}
-                  couleur={competence.couleur}
-                  couleurOmbre={competence.couleurOmbre}
-                  position={competence.position}
-                />
-              );
-            })}
-            <Permis />
-          </div>
-          <div className="flex row items-center justify-center">
-            <img src={motivationsImg} className="w-80" />
-          </div>
-        </div>
-      </div>
-      <div className="parties">
-        <h2 className="chapitre">MES EXPERIENCES PROFESSIONNELLES</h2>
-        {listeExp.map((exp) => {
-          return (
-            <ComposantEvenement
-              key={exp.id}
-              id={exp.id}
-              img={exp.img}
-              date={exp.date}
-              titre={exp.titre}
-              description={exp.description}
-              couleur={exp.couleur}
-              content={exp.content}
-              competences={exp.competences}
-            />
-          );
-        })}
-      </div>
-      <div className="parties">
-        <h2 className="chapitre">PROJETS, EVENEMENTS, ASSOCIATIF</h2>
-        {listeProjets.map((projet) => {
-          return (
-            <ComposantEvenement
-              key={projet.id}
-              id={projet.id}
-              img={projet.img}
-              date={projet.date}
-              titre={projet.titre}
-              description={projet.description}
-              couleur={projet.couleur}
-              content={projet.content}
-              competences={projet.competences}
-            />
-          );
-        })}
-      </div>
-      <div className="parties">
-        <h2 className="chapitre">
-          MES PROJETS PERSONNELES ET CENTRES D'INTERETS
-        </h2>
-        <div className="carte-interets-position">
-          {listeInterets.map((interet) => {
-            return (
-              <ComposantCarte
-                key={interet.id}
-                id={interet.id}
-                titre={interet.titre}
-                description={interet.description}
-                couleur={interet.couleur}
-                couleurOmbre={interet.couleurOmbre}
-                position={interet.position}
-              />
-            );
-          })}
-        </div>
-      </div>
-      <BoutonContactezMoi />
-      <div className="parties">
-        <a
-          className="telechargement"
-          href="https://drive.google.com/uc?export=download&id=1RWjyybfZgKfMXoSwhIgE56HzrJMOBDBN"
-        >
-          Télécharger mon CV au format PDF
-        </a>
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<EnTete />
+			<BoutonContactezMoi />
+			<div className="parties">
+				<h2 className="chapitre">MES FORMATIONS</h2>
+				{listeEcoles.map((ecole) => {
+					return (
+						<ComposantEvenement
+							key={ecole.id}
+							id={ecole.id}
+							img={ecole.img}
+							date={ecole.date}
+							titre={ecole.titre}
+							description={ecole.description}
+							couleur={ecole.couleur}
+							content={ecole.content}
+							competences={ecole.competences}
+						/>
+					);
+				})}
+			</div>
+			<div className="parties">
+				<h2 className="chapitre">MES COMPETENCES</h2>
+				<div className="flex justify-center mt-10 gap-10">
+					<div className="carte-competences-position relative w-130 min-h-155">
+						{listeCompetences.map((competence) => {
+							return (
+								<ComposantCarte
+									key={competence.id}
+									id={competence.id}
+									titre={competence.titre}
+									description={competence.description}
+									couleur={competence.couleur}
+									couleurOmbre={competence.couleurOmbre}
+									position={competence.position}
+								/>
+							);
+						})}
+						<Permis />
+					</div>
+					<div className="hidden md:flex row items-center justify-center">
+						<img src={motivationsImg} className="w-80" />
+					</div>
+				</div>
+			</div>
+			<div className="parties">
+				<h2 className="chapitre">MES EXPERIENCES PROFESSIONNELLES</h2>
+				{listeExp.map((exp) => {
+					return (
+						<ComposantEvenement
+							key={exp.id}
+							id={exp.id}
+							img={exp.img}
+							date={exp.date}
+							titre={exp.titre}
+							description={exp.description}
+							couleur={exp.couleur}
+							content={exp.content}
+							competences={exp.competences}
+						/>
+					);
+				})}
+			</div>
+			<div className="parties">
+				<h2 className="chapitre">PROJETS, EVENEMENTS, ASSOCIATIF</h2>
+				{listeProjets.map((projet) => {
+					return (
+						<ComposantEvenement
+							key={projet.id}
+							id={projet.id}
+							img={projet.img}
+							date={projet.date}
+							titre={projet.titre}
+							description={projet.description}
+							couleur={projet.couleur}
+							content={projet.content}
+							competences={projet.competences}
+						/>
+					);
+				})}
+			</div>
+			<div className="parties">
+				<h2 className="chapitre">
+					MES PROJETS PERSONNELES ET CENTRES D'INTERETS
+				</h2>
+				<div className="carte-interets-position">
+					{listeInterets.map((interet) => {
+						return (
+							<ComposantCarte
+								key={interet.id}
+								id={interet.id}
+								titre={interet.titre}
+								description={interet.description}
+								couleur={interet.couleur}
+								couleurOmbre={interet.couleurOmbre}
+								position={interet.position}
+							/>
+						);
+					})}
+				</div>
+			</div>
+			<BoutonContactezMoi />
+			<div className="parties">
+				<a
+					className="telechargement"
+					href="https://drive.google.com/uc?export=download&id=1RWjyybfZgKfMXoSwhIgE56HzrJMOBDBN"
+				>
+					Télécharger mon CV au format PDF
+				</a>
+			</div>
+		</div>
+	);
 };
 
 export default Home;
