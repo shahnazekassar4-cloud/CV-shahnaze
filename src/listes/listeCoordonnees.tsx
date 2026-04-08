@@ -1,7 +1,3 @@
-import gpsImg from "../img/map-pin.png";
-import mailImg from "../img/mail.png";
-import telephone from "../img/phone.png";
-import linkedin from "../img/linkedin.png";
 import type { ReactNode } from "react";
 
 export type Coordonnees = {
@@ -13,13 +9,13 @@ export type Coordonnees = {
 export const listeCoordonnees: Coordonnees[] = [
   {
     id: 1,
-    logo: telephone,
+    logo: "/phone.png",
     nom: "Téléphone",
     info: "07 77 78 35 01",
   },
   {
     id: 2,
-    logo: mailImg,
+    logo: "/mail.png",
     nom: "Email",
     info: (
       <a href="mailto:shahnazekassar4@gmail.com" className="hover:underline">
@@ -29,13 +25,13 @@ export const listeCoordonnees: Coordonnees[] = [
   },
   {
     id: 3,
-    logo: gpsImg,
+    logo: "/map-pin.png",
     nom: "Mobilité",
     info: "Occitanie",
   },
   {
     id: 4,
-    logo: linkedin,
+    logo: "/linkedin.png",
     nom: "LinkedIn",
     info: (
       <a

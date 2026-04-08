@@ -1,6 +1,6 @@
 export function PlusSport() {
   return (
-    <ul className="competences-container-cartes mt-5">
+    <ul className="competences-container-cartes mt-10">
       <li className="competences-sport">10 ans de tennis</li>
       <li className="competences-sport">Roller</li>
       <li className="competences-sport">Gymnastique</li>

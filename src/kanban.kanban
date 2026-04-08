@@ -1,0 +1,50 @@
+{
+  "lists": [
+    {
+      "id": "1b9b6635-0ed6-41e9-81ea-4731a6404e59",
+      "title": "To Do",
+      "cards": []
+    },
+    {
+      "id": "d8b40d27-0ba0-4a4b-8c56-1ba3d98a178b",
+      "title": "Doing",
+      "cards": []
+    },
+    {
+      "id": "b9589b02-148b-4e6e-a431-08c3c4a71385",
+      "title": "Done",
+      "cards": []
+    }
+  ],
+  "archive": {
+    "lists": [
+      {
+        "id": "d6c18585-79b7-4817-b14f-719c0fd63e1b",
+        "title": "Backlog"
+      }
+    ],
+    "cards": [
+      {
+        "id": "5f8ba579-cc34-4071-b4dc-c55e28a85d26",
+        "listId": "b9589b02-148b-4e6e-a431-08c3c4a71385",
+        "title": "personnelles",
+        "description": "",
+        "labels": [],
+        "checkboxes": [],
+        "comments": []
+      },
+      {
+        "id": "76be785d-af58-4be7-86ff-0e650a6d7361",
+        "listId": "b9589b02-148b-4e6e-a431-08c3c4a71385",
+        "title": "agrandir logo pescadou",
+        "description": "",
+        "labels": [],
+        "checkboxes": [],
+        "comments": []
+      }
+    ]
+  },
+  "settings": {
+    "labels": []
+  }
+}
