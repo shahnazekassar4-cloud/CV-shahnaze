@@ -1,6 +1,6 @@
 export function PlusHumain() {
   return (
-    <ul className="competences-container-cartes mt-3">
+    <ul className="competences-container-cartes">
       <li className="competences-humaines">Gestion de projet</li>{" "}
       <li className="competences-humaines">Animation</li>{" "}
       <li className="competences-humaines">Ésprit critique</li>{" "}
