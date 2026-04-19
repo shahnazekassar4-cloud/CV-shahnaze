@@ -3,7 +3,7 @@ import type { Carte } from "../listes/listeCartes";
 export function ComposantCarte(carte: Carte) {
   return (
     <div
-      className={`carte ${carte.couleurOmbre} ${carte.position}`}
+      className={`carte ${carte.couleurOmbre} ${carte.position} hover:scale-102`}
       style={{ borderColor: carte.couleur }}
     >
       <div className="carte-titre" style={{ color: carte.couleur }}>

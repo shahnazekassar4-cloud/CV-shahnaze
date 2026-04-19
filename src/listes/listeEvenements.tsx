@@ -153,15 +153,16 @@ export const listeExp: Evenement[] = [
     img: "/crous.png",
     date: "(en cours)",
     titre:
-      "Service Civique | Sensibiliser et agir pour la transition écologique, Toulouse",
+      "Service Civique | Eco-Ambassadrice : Sensibiliser et agir pour la transition écologique, Toulouse",
     description:
-      "Création et animation d'évènements autour de la transition écologique aurpès de la communauté étudiante de Toulouse.",
+      "Création et animation d'évènements autour de la transition écologique auprès de la communauté étudiante de Toulouse. ",
     couleur: "#E42618",
     content: (
       <div>
-        {" "}
-        A venir
-        {/* <p>
+        A venir...
+        {/* <p>Au travers cette expérience j'ai su mobiliser mon réseau pour proposer des collaborations inédites et des animations innoventes.</p><p>
+          formation civique te citoyenne et premiers secours
+        </p> <p>
           Organiser ou participer à l’organisation d’actions autour des
           thématiques de l’environnement,notamment des actions de
           sensibilisation.
