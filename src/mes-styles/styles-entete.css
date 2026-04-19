@@ -1,52 +1,52 @@
 @import "tailwindcss";
 
 .sous-en-tete-0 {
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .sous-en-tete-1 {
-	font-size: 20px;
-	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .sous-en-tete-2 {
-	font-size: 15px;
-	text-align: justify;
-	margin-top: 30px;
-	border: transparent;
-	padding: 10px 20px;
-	font-style: italic;
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 30px;
+  border: transparent;
+  padding: 10px 20px;
+  font-style: italic;
 }
 
 .telechargement {
-	font-size: 12px;
-	margin: 30px;
-	border: transparent;
-	padding: 10px;
-	text-align: center;
-	width: 100%;
-	text-decoration: underline;
+  font-size: 12px;
+  margin: 30px;
+  border: transparent;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
 }
 
 .entete {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-	.sous-en-tete-0 {
-		text-align: start;
-	}
-	.sous-en-tete-1 {
-		text-align: start;
-	}
-	.sous-en-tete-2 {
-		text-align: start;
-	}
+  .sous-en-tete-0 {
+    text-align: start;
+  }
+  .sous-en-tete-1 {
+    text-align: start;
+  }
+  .sous-en-tete-2 {
+    text-align: start;
+  }
 }
