@@ -1,22 +1,28 @@
 export function PlusTechnique() {
+  const liste = [
+    "Microsoft Office",
+    "Notion",
+    "QGIS",
+    "Blender",
+    "SketchUp",
+    "LibreCad",
+    "Epice Energie",
+    "Helioscope",
+    "Prosim",
+    "Fluent",
+    "Matlab",
+    "TypeScript",
+    "HTML",
+    "React",
+    "VBA",
+    "CSS",
+  ];
+
   return (
     <ul className="competences-container-cartes">
-      <li className="competences-techniques">Microsoft Office</li>
-      <li className="competences-techniques">Notion</li>
-      <li className="competences-techniques">QGIS</li>
-      <li className="competences-techniques">Blender</li>
-      <li className="competences-techniques">SketchUp</li>
-      <li className="competences-techniques">LibreCad</li>
-      <li className="competences-techniques">Epice Energie</li>
-      <li className="competences-techniques">Helioscope</li>
-      <li className="competences-techniques">Prosim</li>
-      <li className="competences-techniques">Fluent</li>
-      <li className="competences-techniques">React</li>
-      <li className="competences-techniques">TypeScript</li>
-      <li className="competences-techniques">HTML</li>
-      <li className="competences-techniques">Matlab</li>
-      <li className="competences-techniques">VBA</li>
-      <li className="competences-techniques">CSS</li>
+      {liste.map((el) => {
+        return <li className="competences-techniques">{el}</li>;
+      })}
     </ul>
   );
 }

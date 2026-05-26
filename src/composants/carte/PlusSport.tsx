@@ -1,12 +1,17 @@
 export function PlusSport() {
+  const liste = [
+    "    10 ans de tennis",
+    "Roller",
+    "Gymnastique",
+    "Cheerleading",
+    "Badminton",
+    "Course à pied",
+  ];
   return (
-    <ul className="competences-container-cartes mt-10">
-      <li className="competences-sport">10 ans de tennis</li>
-      <li className="competences-sport">Roller</li>
-      <li className="competences-sport">Gymnastique</li>
-      <li className="competences-sport">Cheerleading</li>
-      <li className="competences-sport">Badminton</li>
-      <li className="competences-sport">Course à pied</li>
+    <ul className="competences-container-cartes">
+      {liste.map((el) => {
+        return <li className="competences-sport">{el}</li>;
+      })}
     </ul>
   );
 }

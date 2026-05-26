@@ -12,6 +12,24 @@
           "labels": [],
           "checkboxes": [],
           "comments": []
+        },
+        {
+          "id": "037f5890-2042-42d3-991c-505b95c6647a",
+          "listId": "1b9b6635-0ed6-41e9-81ea-4731a6404e59",
+          "title": "enlever adresse de cv pdf",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "af7caf1e-dc92-4b8e-a042-d375c4b41465",
+          "listId": "1b9b6635-0ed6-41e9-81ea-4731a6404e59",
+          "title": "ajouter section formations genre premiers secours",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
         }
       ]
     },

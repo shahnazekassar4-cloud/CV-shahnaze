@@ -1,11 +1,16 @@
 export function PlusLangues() {
+  const liste = [
+    "Français : langue maternelle",
+    "Anglais : TOEIC B2",
+    "Arabe : dialecte tunisien",
+    "Italien : niveau scolaire",
+    "Coréen : notions",
+  ];
   return (
     <ul className="competences-container-cartes">
-      <li className="competences-langues">Français : langue maternelle</li>
-      <li className="competences-langues"> Anglais : TOEIC B2</li>
-      <li className="competences-langues"> Arabe : dialecte tunisien</li>
-      <li className="competences-langues"> Italien : niveau scolaire</li>
-      <li className="competences-langues"> Coréen : notions</li>
+      {liste.map((el) => {
+        return <li className="competences-langues">{el}</li>;
+      })}
     </ul>
   );
 }

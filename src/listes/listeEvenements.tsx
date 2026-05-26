@@ -155,62 +155,70 @@ export const listeExp: Evenement[] = [
     titre:
       "Service Civique | Eco-Ambassadrice : Sensibiliser et agir pour la transition écologique, Toulouse",
     description:
-      "Création et animation d'évènements autour de la transition écologique auprès de la communauté étudiante de Toulouse. ",
+      "Création et animation d'évènements autour de la transition écologique auprès de la communauté étudiante de Toulouse.",
     couleur: "#E42618",
     content: (
       <div>
-        A venir...
-        {/* <p>Au travers cette expérience j'ai su mobiliser mon réseau pour proposer des collaborations inédites et des animations innoventes.</p><p>
-          formation civique te citoyenne et premiers secours
-        </p> <p>
-          Organiser ou participer à l’organisation d’actions autour des
-          thématiques de l’environnement,notamment des actions de
-          sensibilisation.
+        {/* <p>
+          Au travers cette expérience j'ai su mobiliser mon{" "}
+          <span className="text-red-600">réseau</span> pour proposer des{" "}
+          <span className="text-red-600">collaborations</span> inédites et des
+          animations innoventes comme le Casino du jeu de société. J'ai aussi co
+          animé un <span className="text-red-600">poadcast mensuel</span> sur
+          l'éco-anxiété.
         </p>
         <p>
-          Participer aux échanges autour de la transition écologique au sein des
-          campus et au développement du réseau de partenariats.
-        </p>
-        <p>
-          Participer à la valorisation des initiatives locales et accompagner
-          les étudiants dans l’application des mesures possibles sur leur
-          campus.
-        </p>
-        <p>
-          Accompagner les étudiants et les associations dans leurs projets liés
-          à ces thématiques.
-        </p>
-        <ul>
-          Proposer des actions et des activités adaptées aux différents sites
-          Crous :
-          <li>
-            - En résidence universitaire : tri sélectif, surconsommation de
-            l’eau et de l’électricité.
-          </li>
-          <li>
-            - En restaurant universitaire : gaspillage et de l’équilibre
-            alimentaire.
-          </li>
-          <li>
-            - Sur les campus universitaires: autour des jardins partagés,
-            composteur, récupérateur de déchets végétaux.
-          </li>
-        </ul>
-        <p>
-          Organiser des activités de promotion et de sensibilisation autour des
-          thématiques liées : commerce équitable, l’économie sociale et
-          solidaire (Troc party, échanges de service, pots d’accueil,
-          projections débats, etc).
-        </p>
-        <p>
-          Organiser des activités de promotion du commerce équitable, de
-          l’économie sociale et solidaire (Troc party, échanges de service, pots
-          d’accueil, projections débats, etc) ou d’autres thématiques liées au
-          respect de l’environnement.
+          J'ai participé au{" "}
+          <a
+            className="text-red-600"
+            href="https://futurs-proches.univ-toulouse.fr/"
+          >
+            Fetsival des Futurs Porches
+          </a>{" "}
+          (3ème édition) en tant qu'animatrice du QUIZZ de culture E et de la
+          roue de la transition.
         </p> */}
+
+        <p>
+          Formations :{" "}
+          <span>
+            Gaspillage alimentaire (
+            <u>
+              <a target="_blank" href="https://www.pro-portion.fr/">
+                Pro-Portion
+              </a>
+            </u>
+            )
+          </span>{" "}
+          •{" "}
+          <span>
+            Réduction des déchets (
+            <u>
+              <a target="_blank" href="https://www.zerowastefrance.org/">
+                Zero Waste France
+              </a>
+            </u>
+            )
+          </span>{" "}
+          •{" "}
+          <span>
+            Animatrice (
+            <u>
+              <a target="_blank" href="https://www.2tonnes.org/">
+                Atelier 2tonnes
+              </a>
+            </u>
+            )
+          </span>{" "}
+          • <span>PSC1 (La Croix Rouge)</span> •{" "}
+          <span>Formation Civique et Citoyenne (Ligue de l’Enseignement)</span>
+        </p>
       </div>
     ),
-    competences: [],
+    competences: [
+      "Animatrice atelier 2tonnes",
+      "Formation réduction des déchets et gaspillage alimentaire",
+    ],
   },
   {
     id: 2,
