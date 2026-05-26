@@ -11,7 +11,11 @@ export const listeCoordonnees: Coordonnees[] = [
     id: 1,
     logo: "/phone.png",
     nom: "Téléphone",
-    info: "07 77 78 35 01",
+    info: (
+      <a href="tel:+21623525205" className="hover:underline">
+        07 77 78 35 01
+      </a>
+    ),
   },
   {
     id: 2,
@@ -27,7 +31,7 @@ export const listeCoordonnees: Coordonnees[] = [
     id: 3,
     logo: "/map-pin.png",
     nom: "Mobilité",
-    info: "Occitanie",
+    info: "Toulouse",
   },
   {
     id: 4,

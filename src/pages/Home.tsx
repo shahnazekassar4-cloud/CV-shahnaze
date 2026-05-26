@@ -7,7 +7,6 @@ import { ComposantEvenement } from "../composants/ComposantEvenement";
 import { listeCompetences } from "../listes/listeCartes";
 import { listeInterets } from "../listes/listeCartes";
 import { ComposantCarte } from "../composants/ComposantCarte";
-import { Permis } from "../composants/Permis";
 
 export type CouleurCompetenceProps = { couleur: string };
 
@@ -51,7 +50,6 @@ const Home = () => {
                 />
               );
             })}
-            <Permis />
           </div>
           <div className="hidden md:flex row items-center justify-center">
             <img src={"/motivations.png"} className="w-80" />
