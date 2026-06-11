@@ -35,8 +35,8 @@ const Home = () => {
       </div>
       <div className="parties">
         <h2 className="chapitre">MES COMPETENCES</h2>
-        <div className="flex justify-center mt-10 gap-10">
-          <div className="carte-competences-position relative md:w-130 min-h-155">
+        <div className="flex justify-center mt-10 gap-10 md:mb-10">
+          <div className=" carte-competences-position relative md:w-115 min-h-130  ">
             {listeCompetences.map((carte) => {
               return (
                 <ComposantCarte

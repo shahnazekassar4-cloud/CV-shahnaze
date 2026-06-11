@@ -10,7 +10,7 @@ export function PlusFormations() {
   return (
     <ul className="competences-container-cartes">
       {liste.map((el) => {
-        return <li className="competences-formations">{el}</li>;
+        return <li className="competences-formations mb-2">{el}</li>;
       })}
     </ul>
   );
