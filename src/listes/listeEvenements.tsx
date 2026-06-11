@@ -158,7 +158,7 @@ export const listeExp: Evenement[] = [
       "Création et animation d'évènements autour de la transition écologique auprès de la communauté étudiante de Toulouse.",
     couleur: "#E42618",
     content: (
-      <div>
+      <div className="flex flex-col gap-1">
         {/* <p>
           Au travers cette expérience j'ai su mobiliser mon{" "}
           <span className="text-red-600">réseau</span> pour proposer des{" "}
@@ -178,7 +178,23 @@ export const listeExp: Evenement[] = [
           (3ème édition) en tant qu'animatrice du QUIZZ de culture E et de la
           roue de la transition.
         </p> */}
-
+        <ul>
+          <li>
+            {" "}
+            <span className="text-red-600">
+              Festival des Futurs Proches{" "}
+            </span>{" "}
+            (3ème édition){" "}
+          </li>
+          <li>
+            <span className="text-red-600">Emission de radio</span> sur
+            l'éco-anxiété chez les étudiants en collaboration avec Campus FM
+          </li>
+          <li>
+            <span className="text-red-600">QUIZZ de culture "E"</span>{" "}
+            (Ecologie)
+          </li>
+        </ul>
         <p>
           Formations :{" "}
           <span>
@@ -211,7 +227,10 @@ export const listeExp: Evenement[] = [
             )
           </span>{" "}
           • <span>PSC1 (La Croix Rouge)</span> •{" "}
-          <span>Formation Civique et Citoyenne (Ligue de l’Enseignement)</span>
+          <span>
+            Formation Civique et Citoyenne : s’engager à travers l’économie
+            sociale et solidaire (e-graine){" "}
+          </span>
         </p>
       </div>
     ),
