@@ -23,9 +23,18 @@
           "comments": []
         },
         {
-          "id": "af7caf1e-dc92-4b8e-a042-d375c4b41465",
+          "id": "28ace0f3-15e0-4ac4-aeed-06e2ccdcb943",
           "listId": "1b9b6635-0ed6-41e9-81ea-4731a6404e59",
-          "title": "ajouter section formations genre premiers secours",
+          "title": "ajouter lombre sur les cartes competences format téléphone",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "8a08fe7b-790a-4d06-92a5-dbd50894397c",
+          "listId": "1b9b6635-0ed6-41e9-81ea-4731a6404e59",
+          "title": "ajouter video service civique",
           "description": "",
           "labels": [],
           "checkboxes": [],
@@ -41,7 +50,17 @@
     {
       "id": "b9589b02-148b-4e6e-a431-08c3c4a71385",
       "title": "Done",
-      "cards": []
+      "cards": [
+        {
+          "id": "af7caf1e-dc92-4b8e-a042-d375c4b41465",
+          "listId": "b9589b02-148b-4e6e-a431-08c3c4a71385",
+          "title": "ajouter section formations genre premiers secours",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
     }
   ],
   "archive": {

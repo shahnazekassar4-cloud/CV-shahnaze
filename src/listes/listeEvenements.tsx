@@ -158,80 +158,91 @@ export const listeExp: Evenement[] = [
       "Création et animation d'évènements autour de la transition écologique auprès de la communauté étudiante de Toulouse.",
     couleur: "#E42618",
     content: (
-      <div className="flex flex-col gap-1">
-        {/* <p>
-          Au travers cette expérience j'ai su mobiliser mon{" "}
-          <span className="text-red-600">réseau</span> pour proposer des{" "}
-          <span className="text-red-600">collaborations</span> inédites et des
-          animations innoventes comme le Casino du jeu de société. J'ai aussi co
-          animé un <span className="text-red-600">poadcast mensuel</span> sur
-          l'éco-anxiété.
-        </p>
-        <p>
-          J'ai participé au{" "}
-          <a
-            className="text-red-600"
-            href="https://futurs-proches.univ-toulouse.fr/"
-          >
-            Fetsival des Futurs Porches
-          </a>{" "}
-          (3ème édition) en tant qu'animatrice du QUIZZ de culture E et de la
-          roue de la transition.
-        </p> */}
-        <ul>
-          <li>
-            {" "}
-            <span className="text-red-600">
-              Festival des Futurs Proches{" "}
-            </span>{" "}
-            (3ème édition){" "}
-          </li>
-          <li>
-            <span className="text-red-600">Emission de radio</span> sur
-            l'éco-anxiété chez les étudiants en collaboration avec Campus FM
-          </li>
-          <li>
-            <span className="text-red-600">QUIZZ de culture "E"</span>{" "}
-            (Ecologie)
-          </li>
-        </ul>
-        <p>
-          Formations :{" "}
-          <span>
-            Gaspillage alimentaire (
-            <u>
-              <a target="_blank" href="https://www.pro-portion.fr/">
+      <div className="flex flex-col gap-5 items-center">
+        <video width="200" controls>
+          <source src={"/Shahnaze.mp4"} type="video/mp4" />
+          Votre navigateur ne supporte pas la vidéo.
+        </video>{" "}
+        <div className="flex flex-col gap-2">
+          {" "}
+          <p>
+            Au travers cette expérience j'ai su mobiliser mon{" "}
+            <span className="text-red-600">réseau</span> pour proposer des{" "}
+            <span className="text-red-600">collaborations</span> inédites et des
+            animations innoventes.
+          </p>
+          <ul>
+            <li>
+              {" "}
+              <a
+                className="text-red-600 underline"
+                href="https://futurs-proches.univ-toulouse.fr/"
+                target="_blank"
+              >
+                Fetsival des Futurs Porches
+              </a>{" "}
+              (3ème édition){" "}
+            </li>
+            <li>
+              <span className="text-red-600">Emission de radio</span> sur
+              l'éco-anxiété chez les étudiants en collaboration avec{" "}
+              <a
+                href="https://www.campusfm.net/"
+                target="_blank"
+                className="underline"
+              >
+                Campus FM
+              </a>
+            </li>
+            <li>
+              <span className="text-red-600">QUIZZ de culture "E"</span>{" "}
+              (Ecologie)
+            </li>
+          </ul>
+          <p>
+            Formations :{" "}
+            <span>
+              Gaspillage alimentaire (
+              <a
+                target="_blank"
+                href="https://www.pro-portion.fr/"
+                className="underline"
+              >
                 Pro-Portion
               </a>
-            </u>
-            )
-          </span>{" "}
-          •{" "}
-          <span>
-            Réduction des déchets (
-            <u>
-              <a target="_blank" href="https://www.zerowastefrance.org/">
+              )
+            </span>{" "}
+            •{" "}
+            <span>
+              Réduction des déchets (
+              <a
+                className="underline"
+                target="_blank"
+                href="https://www.zerowastefrance.org/"
+              >
                 Zero Waste France
               </a>
-            </u>
-            )
-          </span>{" "}
-          •{" "}
-          <span>
-            Animatrice (
-            <u>
-              <a target="_blank" href="https://www.2tonnes.org/">
+              )
+            </span>{" "}
+            •{" "}
+            <span>
+              Animatrice (
+              <a
+                className="underline"
+                target="_blank"
+                href="https://www.2tonnes.org/"
+              >
                 Atelier 2tonnes
               </a>
-            </u>
-            )
-          </span>{" "}
-          • <span>PSC1 (La Croix Rouge)</span> •{" "}
-          <span>
-            Formation Civique et Citoyenne : s’engager à travers l’économie
-            sociale et solidaire (e-graine){" "}
-          </span>
-        </p>
+              )
+            </span>{" "}
+            • <span>PSC1 (La Croix Rouge)</span> •{" "}
+            <span>
+              Formation Civique et Citoyenne : s’engager à travers l’économie
+              sociale et solidaire (e-graine){" "}
+            </span>
+          </p>
+        </div>
       </div>
     ),
     competences: [

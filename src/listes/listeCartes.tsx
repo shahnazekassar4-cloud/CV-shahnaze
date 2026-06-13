@@ -23,7 +23,7 @@ export const listeCompetences: Carte[] = [
     description: <PlusTechnique />,
     couleur: "rgb(244,165,25)",
     couleurOmbre:
-      "hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
+      "shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] md:hover:shadow-[7px_5px_0px_-1px_rgba(244,165,25,0.5)] hover:z-1",
     position: "md:absolute md:left-0 md:top-0 md:-rotate-5",
   },
   {
@@ -32,7 +32,7 @@ export const listeCompetences: Carte[] = [
     description: <PlusHumain />,
     couleur: "#6C8A18",
     couleurOmbre:
-      "hover:shadow-[7px_5px_0px_-1px_rgba(108,138,24,0.5)] hover:z-1",
+      "shadow-[7px_5px_0px_-1px_rgba(108,138,24,0.5)] md:hover:shadow-[7px_5px_0px_-1px_rgba(108,138,24,0.5)] hover:z-1",
     position: "md:absolute md:right-0 md:top-10 md:rotate-5",
   },
   {
@@ -42,7 +42,7 @@ export const listeCompetences: Carte[] = [
     couleur: "#094196",
 
     couleurOmbre:
-      " hover:shadow-[7px_5px_0px_-1px_rgba(9,65,150,0.5)] hover:z-1",
+      "shadow-[7px_5px_0px_-1px_rgba(9,65,150,0.5)] md:hover:shadow-[7px_5px_0px_-1px_rgba(9,65,150,0.5)] hover:z-1",
     position: "md:absolute md:bottom-0 md:left-0 md:rotate-5",
   },
   {
@@ -51,7 +51,7 @@ export const listeCompetences: Carte[] = [
     description: <PlusFormations />,
     couleur: "#E42618",
     couleurOmbre:
-      "hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] md:shadow-none md:hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] hover:z-1",
+      "shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] md:shadow-none md:hover:shadow-[7px_5px_0px_-1px_rgba(228,38,24,0.5)] hover:z-1",
     position: "md:absolute md:-bottom-10 md:right-0 md:-rotate-5",
   },
 ];
