@@ -169,7 +169,7 @@ export const listeExp: Evenement[] = [
             Au travers cette expérience j'ai su mobiliser mon{" "}
             <span className="text-red-600">réseau</span> pour proposer des{" "}
             <span className="text-red-600">collaborations</span> inédites et des
-            animations innoventes.
+            animations innovantes.
           </p>
           <ul>
             <li>
@@ -226,7 +226,7 @@ export const listeExp: Evenement[] = [
             </span>{" "}
             •{" "}
             <span>
-              Animatrice (
+              Animatrice{" "}
               <a
                 className="underline"
                 target="_blank"
@@ -234,7 +234,6 @@ export const listeExp: Evenement[] = [
               >
                 Atelier 2tonnes
               </a>
-              )
             </span>{" "}
             • <span>PSC1 (La Croix Rouge)</span> •{" "}
             <span>
@@ -417,6 +416,24 @@ export const listeProjets: Evenement[] = [
     ],
   },
   {
+    id: 3,
+    img: " /recup.jpg",
+    date: "2026",
+    titre: "Bénévolat | Réccup'Occitanie, Toulouse",
+    description:
+      "  Vidange et nettoyage des bokashis. Retournement des caissons de composte.",
+    couleur: "#003e28",
+    content: (
+      <u className="evenement-description">
+        <a href="https://www.recup-compostage-urbain.fr/" target="_blank">
+          ...voir le site
+        </a>
+      </u>
+    ),
+    competences: [],
+  },
+
+  {
     id: 2,
     img: " /ecoconseil.jpg",
     date: "2024 • 2025",
@@ -494,22 +511,5 @@ export const listeProjets: Evenement[] = [
       </div>
     ),
     competences: ["Animation", "Vulgarisation", "Médiation"],
-  },
-  {
-    id: 3,
-    img: " /recup.jpg",
-    date: "2026",
-    titre: "Bénévolat | Réccup'Occitanie, Toulouse",
-    description:
-      "  Vidange et nettoyage des bokashis. Retournement des caissons de composte.",
-    couleur: "#003e28",
-    content: (
-      <u className="evenement-description">
-        <a href="https://www.recup-compostage-urbain.fr/" target="_blank">
-          ...voir le site
-        </a>
-      </u>
-    ),
-    competences: [],
   },
 ];

@@ -116,7 +116,7 @@ const Home = () => {
       <div className="parties">
         <a
           className="telechargement"
-          href="https://drive.google.com/uc?export=download&id=1RWjyybfZgKfMXoSwhIgE56HzrJMOBDBN"
+          href="https://drive.google.com/uc?export=download&id=1-RbPGHvSzgOdWhXhZETzRhqJgi4J9ECT"
         >
           Télécharger mon CV au format PDF
         </a>
