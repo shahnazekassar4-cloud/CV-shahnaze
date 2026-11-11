@@ -149,9 +149,22 @@ export const listeEcoles: Evenement[] = [
 
 export const listeExp: Evenement[] = [
   {
+    id: 5,
+    img: "/voix-publique.png",
+    date: "Septembre 2026 (4 mois)",
+    titre:
+      "Voix Publique X Toulouse Métropole | Médiatrice déchets alimentaires, Toulouse",
+    description:
+      "Sensibilisation des particuliers au tri des déchets alimentaires grâce aux compsteurs collectifs et aux points d'apport volontaire. ",
+    couleur: "#1986B8",
+    content: "",
+    competences: ["Conduite d'utilitaires", "Animation de stands"],
+  },
+
+  {
     id: 4,
     img: "/crous.png",
-    date: "(en cours)",
+    date: "Avril 2026 (5 mois)",
     titre:
       "Service Civique | Eco-Ambassadrice : Sensibiliser et agir pour la transition écologique, Toulouse",
     description:
@@ -171,34 +184,6 @@ export const listeExp: Evenement[] = [
             <span className="text-red-600">collaborations</span> inédites et des
             animations innovantes.
           </p>
-          <ul>
-            <li>
-              {" "}
-              <a
-                className="text-red-600 underline"
-                href="https://futurs-proches.univ-toulouse.fr/"
-                target="_blank"
-              >
-                Fetsival des Futurs Porches
-              </a>{" "}
-              (3ème édition){" "}
-            </li>
-            <li>
-              <span className="text-red-600">Emission de radio</span> sur
-              l'éco-anxiété chez les étudiants en collaboration avec{" "}
-              <a
-                href="https://www.campusfm.net/"
-                target="_blank"
-                className="underline"
-              >
-                Campus FM
-              </a>
-            </li>
-            <li>
-              <span className="text-red-600">QUIZZ de culture "E"</span>{" "}
-              (Ecologie)
-            </li>
-          </ul>
           <p>
             Formations :{" "}
             <span>
@@ -235,7 +220,7 @@ export const listeExp: Evenement[] = [
                 Atelier 2tonnes
               </a>
             </span>{" "}
-            • <span>PSC1 (La Croix Rouge)</span> •{" "}
+            •{" "}
             <span>
               Formation Civique et Citoyenne : s’engager à travers l’économie
               sociale et solidaire (e-graine){" "}
@@ -340,7 +325,7 @@ export const listeExp: Evenement[] = [
     date: "",
     titre: "Voir mes autres stages et expériences ...",
     description: "",
-    couleur: "#094196",
+    couleur: "#4e4e4e",
     content: (
       <div>
         <ul>
